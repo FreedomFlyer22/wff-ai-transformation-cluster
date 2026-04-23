@@ -1,0 +1,35 @@
+{
+  "folder": "01-pillar-ai-transformation",
+  "title": "How to Do an AI Transformation (Your Business, Department by Department)",
+  "h1": "How to Do an AI Transformation (Your Business, Department by Department)",
+  "meta_title": "AI Transformation Guide: Department by Department (2026)",
+  "meta_description": "Learn how to run an AI transformation across your entire business \u2014 HR, marketing, finance, sales, customer success, and operations. Practical roadmap included.",
+  "primary_keyword": "ai transformation",
+  "secondary_keywords": [
+    "ai transformation strategy",
+    "how to implement ai in business",
+    "ai adoption roadmap",
+    "ai orchestration platform",
+    "ai workflow automation",
+    "ai for sales"
+  ],
+  "volume": "880/mo",
+  "tier": "T2",
+  "word_count": 3640,
+  "seo_score": 95,
+  "slug": "/blog/ai-business-transformation",
+  "cluster_position": "PILLAR",
+  "internal_links": 7,
+  "status": "complete",
+  "created": "2026-04-23",
+  "cta": "Start Free \u2192 https://app.workflowfiesta.com",
+  "internal_link_map": {
+    "how AI transforms your HR department": "/blog/ai-hr-transformation",
+    "AI for marketing teams": "/blog/ai-marketing-transformation",
+    "automate financial reporting with AI": "/blog/ai-finance-transformation",
+    "how AI increases sales performance": "/blog/ai-for-sales",
+    "AI customer service automation": "/blog/ai-customer-success-transformation",
+    "AI workflow automation for operations": "/blog/ai-operations-transformation",
+    "AI productivity tools ROI": "/blog/ai-productivity-tools"
+  }
+}
