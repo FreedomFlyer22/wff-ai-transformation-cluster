@@ -112,7 +112,7 @@ This is the same principle that governs well-designed [ai transformation strateg
 
 **Workflow Automation Layer:** WorkflowFiesta sits between all of these systems and orchestrates the connections. When an invoice arrives in the AP inbox, WorkflowFiesta reads it, queries NetSuite, routes the approval, and schedules the payment — all without a human touching each step.
 
-This mirrors the approach that [operations teams use when implementing workflow automation](/blog/ai-operations-transformation) — connect existing systems through a workflow layer rather than replacing the systems themselves.
+This mirrors the approach that [ai workflow automation](/blog/ai-operations-transformation) — connect existing systems through a workflow layer rather than replacing the systems themselves.
 
 ---
 
