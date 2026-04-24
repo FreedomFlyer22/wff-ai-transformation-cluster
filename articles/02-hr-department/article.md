@@ -146,7 +146,7 @@ If the average hire requires 15–20 hours of HR coordination time and automatio
 **Onboarding Completion Rate**  
 Automated onboarding workflows with built-in reminders and escalations consistently achieve completion rates above 90%, versus 60–70% for manual processes.
 
-For a deeper look at how these numbers compound across departments, the [ROI of AI automation](/blog/ai-productivity-tools) analysis covers the full business case with benchmarks by company size.
+For a deeper look at how these numbers compound across departments, the [ai productivity tools](/blog/ai-productivity-tools) analysis covers the full business case with benchmarks by company size.
 
 ---
 
