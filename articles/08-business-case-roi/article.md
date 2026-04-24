@@ -101,7 +101,7 @@ The average hire requires 15–20 hours of HR coordination time. Automating top-
 
 At a fully-loaded HR coordinator cost of $45/hour: **$1,800–$2,160/month in recaptured capacity**.
 
-Full implementation detail and workflow examples in the [HR automation](/blog/ai-hr-transformation) guide.
+Full implementation detail and workflow examples in the [ai for hr](/blog/ai-hr-transformation) guide.
 
 ### Marketing: Reporting and Content Production
 
@@ -123,7 +123,7 @@ At a fully-loaded finance manager cost of $65/hour: **$2,925–$3,900/month in r
 
 AP processing cost reduction from $12–$30 per invoice (manual) to $2–$4 per invoice (automated) saves $10–$26 per invoice. At 500 invoices per month: **$5,000–$13,000/month in direct processing cost reduction** — the highest single-workflow ROI in most organizations.
 
-Full implementation guide in the [finance automation](/blog/ai-finance-transformation) article.
+Full implementation guide in the [automate financial reporting](/blog/ai-finance-transformation) article.
 
 ### Sales: Lead Response and CRM Automation
 
@@ -172,7 +172,7 @@ Show the formula. Show your inputs. Show the monthly ROI. Show the payback perio
 **Slide 5: The Ask**  
 The subscription cost. The one-time setup cost. The total 12-month investment. The projected 12-month return. The ROI multiple. One clear approval request.
 
-The [ai transformation](/blog/ai-business-transformation) framework covers how to sequence this across the full organization once the initial business case is approved and the first workflows are running.
+The [ai transformation strategy](/blog/ai-business-transformation) framework covers how to sequence this across the full organization once the initial business case is approved and the first workflows are running.
 
 ---
 
