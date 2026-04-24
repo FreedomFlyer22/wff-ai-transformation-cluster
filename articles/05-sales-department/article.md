@@ -120,7 +120,7 @@ When the prospect responds, WorkflowFiesta detects the reply and sends the rep a
 
 The weekly pipeline review is the most important recurring meeting in most sales organizations, and the most poorly prepared for. **Automate sales pipeline** reporting and the meeting changes character. By Friday afternoon, the sales manager has a structured summary: weighted pipeline vs. target, deals that moved forward this week, deals that went cold, deals at risk of slipping based on inactivity signals, and a forecast range for the month.
 
-This is the same principle that [marketing automation](/blog/ai-marketing-transformation) teams apply to their weekly analytics reporting: automate the data assembly so the team can spend their time on the analysis and the decisions.
+This is the same principle that [ai content marketing](/blog/ai-marketing-transformation) teams apply to their weekly analytics reporting: automate the data assembly so the team can spend their time on the analysis and the decisions.
 
 ---
 
