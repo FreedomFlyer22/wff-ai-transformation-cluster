@@ -45,7 +45,7 @@ HR is one of the highest-ROI starting points for ai transformation because so mu
 
 Key areas: recruiting pipeline automation, onboarding orchestration, performance management, policy Q&A.
 
-See: [How AI Transforms Your HR Department](/blog/ai-hr-transformation)
+Recruiting pipeline automation, onboarding orchestration, and performance management are the highest-ROI starting points — the full breakdown of [ai for hr](/blog/ai-hr-transformation) workflows covers each one with specific trigger-sequence-output detail.
 
 ### Marketing
 
@@ -53,7 +53,7 @@ Marketing was one of the first departments to adopt AI tools, but most teams are
 
 Key areas: content pipeline automation, campaign monitoring, analytics reporting, competitor intelligence.
 
-See: [How AI Transforms Your Marketing Department](/blog/ai-marketing-transformation)
+Content pipeline automation, campaign monitoring, and analytics reporting are where [ai content marketing](/blog/ai-marketing-transformation) teams recapture the most hours — typically 7–11 per week across a mid-market team.
 
 ### Finance and Accounting
 
@@ -61,7 +61,7 @@ Finance is where ai transformation has the clearest ROI because the work is stru
 
 Key areas: financial reporting automation, accounts payable, forecasting, expense management.
 
-See: [How AI Transforms Your Finance Department](/blog/ai-finance-transformation)
+The decision to [automate financial reporting](/blog/ai-finance-transformation) pays back faster than almost any other department automation — AP processing alone saves $5,000–$13,000 per month at 500 invoices.
 
 ### Sales
 
@@ -69,7 +69,7 @@ Sales is where ai transformation has the most visible impact on revenue. Framing
 
 Key areas: lead scoring, outreach automation, CRM hygiene, pipeline forecasting.
 
-See: [How AI Increases Sales Performance](/blog/ai-for-sales)
+Lead scoring, outreach automation, CRM hygiene, and pipeline forecasting are the four workflows where [ai for sales](/blog/ai-for-sales) teams see the fastest, most measurable performance gains.
 
 ### Customer Success
 
@@ -77,7 +77,7 @@ Customer success is where ai transformation directly impacts retention — the m
 
 Key areas: ticket triage, self-service deflection, churn prediction, onboarding monitoring.
 
-See: [How AI Transforms Your Customer Success Department](/blog/ai-customer-success-transformation)
+Ticket triage, churn prediction, and onboarding monitoring are where [ai customer service automation](/blog/ai-customer-success-transformation) delivers the fastest path to measurable churn reduction.
 
 ### Operations and IT
 
@@ -85,7 +85,9 @@ Operations is where ai transformation compounds — because automating operation
 
 Key areas: onboarding orchestration, cross-department reporting, IT tier-1 support, vendor management.
 
-See: [How AI Transforms Your Operations Department](/blog/ai-operations-transformation)
+The operations layer has a multiplier effect no other department can match — [ai workflow automation](/blog/ai-operations-transformation) applied here frees capacity across every department the workflow touches.
+
+The ROI case for every department is quantified in the [ai productivity tools](/blog/ai-productivity-tools) business case guide — including the [roi of ai automation](/blog/ai-productivity-tools) formula, department benchmarks, and the five-slide CFO presentation structure.
 
 ---
 
