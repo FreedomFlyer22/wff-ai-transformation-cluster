@@ -1,103 +1,100 @@
 # 13 — Brand Posts (LinkedIn + Twitter/X)
 ## Article: How to Do an AI Transformation (Your Business, Department by Department)
-## Pipeline Step: 13 of 16 | Date: 2026-05-19
-## Voice: WorkflowFiesta brand — objective, product-focused, no "we/our"
+## Pipeline Step: 13 of 16 | Date: 2026-05-19 | Agent: Brand Post Writer
 
 ---
 
-## LINKEDIN POST — Brand (WorkflowFiesta)
+## LINKEDIN — WorkflowFiesta Company Page
 
-AI transformation isn't a technology project. It's an operations project.
+**Post 1 — Educational (lead with insight)**
 
-The companies seeing real ROI from AI have one thing in common: they started with a workflow, not a tool.
+Most AI transformation initiatives fail before they scale.
 
-Finance teams cutting month-end close time by 50%. HR teams recovering 15 hours per hire. CS teams resolving 60% of tier-1 tickets automatically.
+The reason is almost never the technology. It is the sequence.
 
-The pattern is consistent: identify the highest-volume manual workflow, map every step, build the AI version, measure it for 30 days, move to the next one.
+Teams buy an AI platform, then ask what to use it for. The right sequence is the opposite: map the highest-volume manual workflow in a department, define the trigger-action architecture, then find the AI that fits.
 
-WorkflowFiesta published a department-by-department guide covering HR, marketing, finance, sales, customer success, and operations — with specific workflows, a four-phase roadmap, and a measurement framework.
+WorkflowFiesta published a department-by-department AI transformation guide covering HR, marketing, finance, sales, customer success, and operations — with specific workflows, ROI benchmarks, and a 4-phase roadmap.
 
-No consultants required.
-
-Read the guide → [link]
-
-#AITransformation #WorkflowAutomation #BusinessAI #Operations
+Read it at workflowfiesta.com/blog/ai-business-transformation
 
 ---
 
-## LINKEDIN POST — Brand Short (WorkflowFiesta)
+**Post 2 — Product-led (lead with capability)**
 
-Six departments. One AI transformation framework.
+AI transformation, department by department.
 
-HR: 30–40% faster time-to-hire
-Finance: up to 50–60% reduction in report generation time
-CS: 40–60% faster tier-1 ticket resolution
+HR: recruiting pipeline → onboarding sequence → performance cycle. All automated.
+Marketing: brief → draft → SEO check → publish queue. All connected.
+Finance: month-end close → reconciliation → report → approval routing. All triggered.
+Sales: lead in → enriched → scored → routed → outreach drafted. All in sequence.
+CS: ticket in → classified → knowledge base searched → response drafted → routed. All instant.
+Operations: data from 5 systems → normalized → weekly brief → distributed. Every Monday.
 
-WorkflowFiesta's department-by-department AI transformation guide covers the specific workflows, the four-phase roadmap, and how to measure whether it's working.
+WorkflowFiesta connects the workflows across all six. One orchestration layer. No code required.
 
-Read it → [link]
-
----
-
-## TWITTER/X THREAD — Brand (WorkflowFiesta)
-
-**Tweet 1:**
-Most AI transformation initiatives stall within 6 months.
-
-Four failure modes account for almost all of them. A thread 🧵
-
-**Tweet 2:**
-Failure mode 1: Starting with tools instead of workflows.
-
-Teams buy an AI platform and ask "what should we use this for?"
-
-Wrong order. Identify the highest-volume manual workflow first. Map every step. Then find the AI that fits.
-
-**Tweet 3:**
-Failure mode 2: No trigger-action architecture.
-
-"Use AI to improve customer service" is not a workflow.
-
-"When a ticket is created with CSAT below 7, extract the category, search the knowledge base, draft a resolution, assign to tier-2" is a workflow.
-
-**Tweet 4:**
-Failure mode 3: Treating it as an IT project.
-
-Finance doesn't change how it closes the books because IT deployed a new tool.
-
-AI transformation has to be owned by department heads — people with P&L accountability and operational authority.
-
-**Tweet 5:**
-Failure mode 4: Skipping the measurement baseline.
-
-Before deploying any AI workflow: record time per task, error rate, weekly volume.
-
-Measure the same metrics 30 days post-deployment.
-
-Without a baseline, you can't prove ROI. Without ROI, the next phase doesn't get funded.
-
-**Tweet 6:**
-The companies getting real ROI from AI right now aren't the ones with the biggest budgets.
-
-They're the ones who picked a workflow, automated it, measured it, and moved to the next one.
-
-Full department-by-department guide (HR, marketing, finance, sales, CS, ops) → [link]
+Start Free at workflowfiesta.com
 
 ---
 
-## TWITTER/X — Single Post (WorkflowFiesta)
+## TWITTER/X — WorkflowFiesta
 
-AI transformation by department:
+**Tweet 1 — Thread opener**
 
-HR → 30–40% faster time-to-hire
-Finance → up to 50–60% less time on reporting
-CS → 40–60% faster tier-1 resolution
-Sales → 2× outreach per rep
+Most AI transformation guides describe the destination.
 
-No data scientists. No consultants. Just operators who mapped their workflows and automated them.
+This one describes the route.
 
-Full guide → [link]
+Department by department. Specific workflows. Real benchmarks. 4-phase roadmap.
+
+workflowfiesta.com/blog/ai-business-transformation
+
+🧵 The 4 failure modes (and how to avoid them):
 
 ---
 
-*Pipeline Step: 13 — Brand Post Writer | Date: 2026-05-19*
+**Tweet 2 — Standalone insight**
+
+The AI transformation ROI math:
+
+50-person company
+10 hours recovered per employee per month
+$50/hour loaded cost
+
+= $300,000 in annual recovered capacity
+
+The workflows that get you there: recruiting, report generation, ticket triage.
+
+Full breakdown: workflowfiesta.com/blog/ai-business-transformation
+
+---
+
+**Tweet 3 — Product positioning**
+
+Most workflow tools were built for linear trigger-action sequences.
+
+Not for multi-step AI agents that need to reason, branch, and coordinate across departments.
+
+WorkflowFiesta is the orchestration layer for AI transformation.
+
+Multi-model. No-code. Cross-department.
+
+Start Free → workflowfiesta.com
+
+---
+
+**Tweet 4 — Stat hook**
+
+The fastest AI transformation ROI:
+
+Finance: up to 50-60% reduction in report generation time
+HR: 30-40% reduction in time-to-hire
+CS: 40-60% faster tier-1 ticket resolution
+
+All achievable in the first 90 days.
+
+The department-by-department guide: workflowfiesta.com/blog/ai-business-transformation
+
+---
+
+*Pipeline Step: 13 | Agent: Brand Post Writer | Date: 2026-05-19*
