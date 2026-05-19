@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1200">
+<title>Cover — AI Productivity Tools ROI</title>
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,400&display=swap" rel="stylesheet">
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { width:1200px; height:628px; overflow:hidden; background:#000; font-family:'Satoshi',-apple-system,sans-serif; }
+.canvas { width:1200px; height:628px; position:relative; background:#000; overflow:hidden; }
+.bg-glow { position:absolute; inset:0; background:radial-gradient(ellipse at 75% 100%, #1a0d00 0%, #0a0500 35%, #000000 65%); z-index:0; }
+.dot-grid { position:absolute; top:0; left:0; width:880px; height:628px; background-image:radial-gradient(circle,rgba(255,255,255,0.04) 1px,transparent 1px); background-size:32px 32px; z-index:1; }
+.right-col { position:absolute; top:0; right:0; width:320px; height:628px; background:linear-gradient(180deg,rgba(243,97,12,0.07) 0%,rgba(243,97,12,0.13) 100%); border-left:1px solid rgba(243,97,12,0.15); z-index:2; }
+.stat-stack { position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:40px 20px; gap:0; z-index:4; }
+.stat-item { display:flex; flex-direction:column; align-items:center; flex:1; justify-content:center; width:100%; border-bottom:1px solid rgba(243,97,12,0.12); }
+.stat-item:last-child { border-bottom:none; }
+.stat-num { font-size:22px; font-weight:900; color:#F3610C; letter-spacing:-0.5px; line-height:1; }
+.stat-label { font-size:9px; font-weight:500; color:rgba(255,255,255,0.45); letter-spacing:0.5px; text-transform:uppercase; margin-top:3px; text-align:center; }
+.stat-item.highlight .stat-num { color:#fff; font-size:26px; }
+.stat-item.highlight .stat-label { color:rgba(255,255,255,0.7); }
+.left { position:absolute; top:0; left:0; width:880px; height:628px; z-index:5; display:flex; flex-direction:column; justify-content:space-between; padding:44px 64px; }
+.logo { display:flex; align-items:center; gap:10px; }
+.logo-text { font-size:17px; font-weight:700; color:#fff; letter-spacing:-0.3px; }
+.hl-block { flex:1; display:flex; flex-direction:column; justify-content:center; }
+.hl { font-size:64px; font-weight:900; color:#fff; letter-spacing:-2.5px; line-height:1.0; max-width:740px; }
+.hl .accent { color:#F3610C; }
+.rule { width:48px; height:2px; background:#F3610C; box-shadow:0 0 8px rgba(243,97,12,0.6); margin:20px 0; }
+.sub { font-size:17px; font-weight:400; color:#999; line-height:1.55; max-width:580px; }
+.bottom { display:flex; align-items:center; gap:16px; }
+.pill { display:inline-flex; align-items:center; background:#F3610C; color:#fff; font-size:12px; font-weight:700; letter-spacing:0.6px; text-transform:uppercase; padding:7px 16px; border-radius:100px; }
+.badge { display:inline-flex; align-items:center; border:1px solid rgba(255,255,255,0.15); color:rgba(255,255,255,0.4); font-size:11px; font-weight:500; padding:6px 14px; border-radius:100px; }
+</style>
+</head>
+<body>
+<div class="canvas">
+<div class="bg-glow"></div>
+<div class="dot-grid"></div>
+<div class="right-col">
+  <div class="stat-stack">
+    <div class="stat-item highlight">
+      <span class="stat-num">514 hrs</span>
+      <span class="stat-label">Recovered / Month</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">$406K</span>
+      <span class="stat-label">Annual Value</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">16 days</span>
+      <span class="stat-label">Payback Period</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">6 depts</span>
+      <span class="stat-label">Automated</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">$500/mo</span>
+      <span class="stat-label">Platform Cost</span>
+    </div>
+  </div>
+</div>
+<div class="left">
+  <div class="logo">
+    <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><rect width="28" height="28" rx="7" fill="#F3610C"/><path d="M7 9h14M7 14h9M7 19h11" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/></svg>
+    <span class="logo-text">WorkflowFiesta</span>
+  </div>
+  <div class="hl-block">
+    <div class="hl">AI Productivity<br>Tools: The ROI<br><span class="accent">Breakdown</span></div>
+    <div class="rule"></div>
+    <p class="sub">514 hours recovered per month. $406K annual value.<br>16-day payback. The business case, built.</p>
+  </div>
+  <div class="bottom">
+    <span class="pill">workflowfiesta.com</span>
+    <span class="badge">Article 08 of 08 — AI Transformation Series</span>
+  </div>
+</div>
+</div>
+</body>
+</html>
