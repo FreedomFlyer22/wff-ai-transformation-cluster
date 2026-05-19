@@ -1,68 +1,76 @@
 {
   "article": {
-    "number": 2,
-    "cluster": "WorkflowFiesta AI Transformation Series",
-    "title": "How AI Transforms Your HR Department",
-    "slug": "ai-hr-transformation",
-    "url": "https://workflowfiesta.com/blog/ai-hr-transformation",
-    "status": "publish-ready"
-  },
-  "seo": {
-    "meta_title": "How AI Transforms Your HR Department (2026)",
-    "meta_description": "AI for HR teams: automate recruiting, onboarding, and people ops workflows. See the 5 highest-ROI HR automations and how to build them without code.",
-    "primary_keyword": "ai for hr",
-    "primary_keyword_volume": 3600,
-    "primary_keyword_tier": 1,
-    "secondary_keywords": [
-      "ai recruiting automation",
-      "hr workflow automation",
-      "automate onboarding",
-      "ai people operations",
-      "ai talent acquisition",
-      "automate hr processes"
-    ],
-    "word_count": 2620,
+    "title": "How AI Transforms Your HR Department (Without Replacing Your HR Team)",
+    "meta_title": "AI for HR: The 5 Workflows to Automate First (2026)",
+    "meta_description": "HR teams spend more time on process than people. Here's how to automate recruiting, onboarding, and offboarding — so your HR team can focus on the humans.",
+    "url_slug": "/blog/ai-hr-transformation",
+    "product": "WorkflowFiesta",
+    "cluster": "AI Transformation Series",
+    "article_number": "02 of 08",
+    "published_date": "",
+    "word_count": 2800,
     "reading_time_minutes": 11
   },
+  "seo": {
+    "primary_keyword": "ai for hr",
+    "primary_keyword_volume": 3600,
+    "primary_keyword_density": "0.82%",
+    "seo_score": 92,
+    "tier_1_keywords": [
+      "ai for hr",
+      "ai recruiting automation",
+      "hr workflow automation",
+      "ai for recruiting",
+      "hr automation tools",
+      "automate onboarding",
+      "automate hr processes",
+      "ai talent acquisition"
+    ],
+    "featured_snippet_targets": [
+      "what is ai for hr",
+      "how to automate recruiting with ai",
+      "how to automate employee onboarding",
+      "will AI replace HR jobs"
+    ],
+    "schema_types": ["Article", "FAQPage", "HowTo", "BreadcrumbList"]
+  },
   "internal_links": {
-    "links_out": [
+    "outbound": [
       {
-        "anchor": "complete AI transformation guide",
-        "url": "/blog/ai-business-transformation",
-        "article": "Article 01 — Pillar"
+        "target_url": "/blog/ai-business-transformation",
+        "anchor_text": "complete ai transformation guide",
+        "section": "Building the HR AI Stack"
       },
       {
-        "anchor": "how AI productivity tools pay for themselves",
-        "url": "/blog/ai-productivity-tools",
-        "article": "Article 08 — ROI"
+        "target_url": "/blog/ai-operations-transformation",
+        "anchor_text": "how AI transforms your operations department",
+        "section": "Building the HR AI Stack — table"
       },
       {
-        "anchor": "operations transformation guide",
-        "url": "/blog/ai-operations-transformation",
-        "article": "Article 07 — Operations"
+        "target_url": "/blog/ai-productivity-tools",
+        "anchor_text": "how AI productivity tools pay for themselves",
+        "section": "Measuring HR AI ROI"
       }
     ],
-    "links_in_needed": [
+    "inbound_needed": [
       {
-        "from_article": "Article 01 — Pillar",
-        "anchor": "how AI transforms your HR department",
-        "url": "/blog/ai-hr-transformation"
+        "from_url": "/blog/ai-business-transformation",
+        "anchor_text": "how AI transforms your HR department",
+        "note": "Pillar article should link here from HR department section"
       }
     ]
   },
-  "content": {
-    "sections": [
-      "Where HR Time Actually Goes",
-      "The 5 HR Workflows AI Handles Best",
-      "What AI Cannot Replace in HR",
-      "Building Your HR AI Stack",
-      "Measuring HR AI ROI",
-      "The First HR Workflow to Automate",
-      "FAQ (7 questions)"
-    ],
-    "cta_count": 2,
-    "faq_count": 7,
-    "schema": ["FAQPage", "Article"]
+  "cta": {
+    "mid_article": {
+      "copy": "WorkflowFiesta connects your ATS, calendar, HRIS, and email into a single HR automation layer — no code required.",
+      "button_text": "Start Free →",
+      "url": "https://app.workflowfiesta.com"
+    },
+    "end": {
+      "copy": "Ready to automate your HR workflows? WorkflowFiesta gives your HR team the platform to connect every tool, trigger every workflow, and eliminate the administrative overhead — without writing code.",
+      "button_text": "Start Free →",
+      "url": "https://app.workflowfiesta.com"
+    }
   },
   "files": {
     "article": "article.html",
@@ -70,6 +78,9 @@
     "posts": "posts.md",
     "meta": "meta.json"
   },
-  "product": "WorkflowFiesta",
-  "generated": "2026-05-19"
+  "pipeline": {
+    "completed": "2026-05-19",
+    "steps_completed": 5,
+    "status": "publish-ready"
+  }
 }
