@@ -3,115 +3,220 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=1200">
-<title>AI Transformation Cover</title>
+<title>AI Transformation Cover — WorkflowFiesta</title>
 <link rel="preconnect" href="https://api.fontshare.com">
 <link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,400&display=swap" rel="stylesheet">
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { width: 1200px; height: 628px; overflow: hidden; background: #000; font-family: 'Satoshi', -apple-system, sans-serif; }
+  body { width: 1200px; height: 628px; overflow: hidden; background: #000; }
+
   .canvas {
-    width: 1200px; height: 628px; position: relative; overflow: hidden;
+    width: 1200px;
+    height: 628px;
     background: radial-gradient(ellipse at 85% 90%, #1a0800 0%, #000000 55%);
+    display: flex;
+    position: relative;
+    font-family: 'Satoshi', -apple-system, sans-serif;
   }
-  .dot-grid {
-    position: absolute; top: 0; left: 0; width: 880px; height: 628px;
+
+  /* Left zone */
+  .left {
+    width: 880px;
+    height: 628px;
+    padding: 48px 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* Dot grid overlay */
+  .left::before {
+    content: '';
+    position: absolute;
+    inset: 0;
     background-image: radial-gradient(circle, rgba(255,255,255,0.04) 1px, transparent 1px);
-    background-size: 32px 32px; opacity: 0.4; pointer-events: none;
+    background-size: 32px 32px;
+    opacity: 0.4;
+    pointer-events: none;
   }
-  .right-col {
-    position: absolute; top: 0; right: 0; width: 320px; height: 628px;
-    background: linear-gradient(180deg, rgba(243,97,12,0.08) 0%, rgba(243,97,12,0.14) 100%);
-    display: flex; align-items: center; justify-content: center;
+
+  .logo {
+    width: 180px;
+    height: auto;
   }
-  .connector-line {
-    position: absolute; left: 50%; top: 60px; bottom: 60px; width: 2px;
+
+  .logo-text {
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: -0.5px;
+  }
+
+  .logo-text span {
+    color: #F3610C;
+  }
+
+  .headline-block {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .headline-1 {
+    font-size: 72px;
+    font-weight: 900;
+    color: #ffffff;
+    letter-spacing: -2px;
+    line-height: 1.0;
+    max-width: 760px;
+  }
+
+  .orange-rule {
+    width: 48px;
+    height: 2px;
     background: #F3610C;
-    box-shadow: 0 0 8px rgba(243,97,12,0.6), 0 0 16px rgba(243,97,12,0.3);
+    box-shadow: 0 0 6px rgba(243, 97, 12, 0.5);
+    margin: 20px 0;
+  }
+
+  .headline-2 {
+    font-size: 62px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: -1.5px;
+    line-height: 1.0;
+    max-width: 760px;
+  }
+
+  .subheadline {
+    font-size: 20px;
+    font-weight: 400;
+    color: #999999;
+    line-height: 1.5;
+    max-width: 640px;
+    margin-top: 24px;
+  }
+
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    background: #F3610C;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    border-radius: 100px;
+    width: fit-content;
+  }
+
+  /* Right column */
+  .right {
+    width: 320px;
+    height: 628px;
+    background: linear-gradient(180deg, rgba(243,97,12,0.08) 0%, rgba(243,97,12,0.14) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* Vertical connector line */
+  .connector-line {
+    position: absolute;
+    left: 50%;
+    top: 60px;
+    bottom: 60px;
+    width: 2px;
+    background: #F3610C;
+    box-shadow: 0 0 8px rgba(243, 97, 12, 0.6);
     transform: translateX(-50%);
   }
+
   .icon-stack {
-    position: relative; z-index: 2; display: flex; flex-direction: column;
-    align-items: center; justify-content: space-between;
-    height: 460px; padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 52px;
+    position: relative;
+    z-index: 3;
   }
+
   .icon-item {
-    display: flex; align-items: center; gap: 10px; position: relative;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: relative;
   }
-  .icon-item svg { opacity: 0.7; }
-  .icon-item.active svg { opacity: 1; }
+
   .icon-dot {
-    width: 8px; height: 8px; border-radius: 50%; background: #F3610C;
-    box-shadow: 0 0 6px rgba(243,97,12,0.8);
-    position: absolute; left: -18px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #F3610C;
+    position: absolute;
+    left: -20px;
+    display: none;
   }
+
+  .icon-item.active .icon-dot { display: block; }
+
+  .icon-svg {
+    width: 32px;
+    height: 32px;
+    opacity: 0.7;
+  }
+
+  .icon-item.active .icon-svg {
+    width: 36px;
+    height: 36px;
+    opacity: 1.0;
+  }
+
   .icon-label {
-    font-size: 11px; font-weight: 500; color: rgba(255,255,255,0.6);
-    letter-spacing: 0.3px; min-width: 52px;
-  }
-  .left-zone {
-    position: absolute; top: 0; left: 0; width: 880px; height: 628px;
-    padding: 48px 64px;
-    display: flex; flex-direction: column;
-  }
-  .logo {
-    font-size: 18px; font-weight: 700; color: #fff; letter-spacing: -0.3px;
-    display: flex; align-items: center; gap: 8px;
-  }
-  .logo-dot { width: 8px; height: 8px; border-radius: 50%; background: #F3610C; }
-  .content {
-    margin-top: 90px;
-  }
-  .headline-1 {
-    font-size: 72px; font-weight: 900; color: #fff;
-    letter-spacing: -2px; line-height: 1.0;
-  }
-  .headline-2 {
-    font-size: 62px; font-weight: 700; color: #fff;
-    letter-spacing: -1.5px; line-height: 1.05; margin-top: 4px;
-  }
-  .orange-rule {
-    width: 48px; height: 2px; background: #F3610C; margin: 22px 0;
-    box-shadow: 0 0 6px rgba(243,97,12,0.5);
-  }
-  .subheadline {
-    font-size: 20px; font-weight: 400; color: #999;
-    line-height: 1.5; max-width: 640px;
-  }
-  .pill {
-    position: absolute; bottom: 48px; left: 64px;
-    background: #F3610C; color: #fff;
-    font-size: 13px; font-weight: 700; letter-spacing: 0.5px;
-    padding: 8px 18px; border-radius: 20px;
+    font-size: 11px;
+    font-weight: 500;
+    color: rgba(255,255,255,0.6);
+    letter-spacing: 0.3px;
+    width: 60px;
   }
 </style>
 </head>
 <body>
 <div class="canvas">
-  <div class="dot-grid"></div>
+  <!-- LEFT ZONE -->
+  <div class="left">
+    <!-- Logo -->
+    <div class="logo-text">Workflow<span>Fiesta</span></div>
 
-  <!-- Left Zone -->
-  <div class="left-zone">
-    <div class="logo">
-      <div class="logo-dot"></div>
-      WorkflowFiesta
-    </div>
-    <div class="content">
+    <!-- Headline block -->
+    <div class="headline-block">
       <div class="headline-1">AI Transformation:</div>
-      <div class="headline-2">Department by Department</div>
       <div class="orange-rule"></div>
+      <div class="headline-2">Department by Department</div>
       <div class="subheadline">The 4-phase roadmap for HR, Marketing, Finance,<br>Sales, CS, and Operations — no consultants required.</div>
     </div>
+
+    <!-- Pill tag -->
     <div class="pill">workflowfiesta.com</div>
   </div>
 
-  <!-- Right Column -->
-  <div class="right-col">
+  <!-- RIGHT COLUMN -->
+  <div class="right">
     <div class="connector-line"></div>
     <div class="icon-stack">
 
       <!-- HR -->
       <div class="icon-item">
-        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <div class="icon-dot"></div>
+        <svg class="icon-svg" viewBox="0 0 32 32" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <circle cx="16" cy="10" r="5"/>
           <path d="M6 28c0-5.523 4.477-10 10-10s10 4.477 10 10"/>
         </svg>
@@ -120,34 +225,38 @@
 
       <!-- Marketing -->
       <div class="icon-item">
-        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M26 4L6 13h14l2 10 4-19z"/>
+        <div class="icon-dot"></div>
+        <svg class="icon-svg" viewBox="0 0 32 32" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M26 6L6 14l8 4 4 8 8-20z"/>
         </svg>
         <span class="icon-label">Marketing</span>
       </div>
 
-      <!-- Finance (active) -->
+      <!-- Finance — ACTIVE -->
       <div class="icon-item active">
         <div class="icon-dot"></div>
-        <svg width="36" height="36" viewBox="0 0 32 32" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <rect x="4" y="20" width="6" height="8" rx="1"/>
-          <rect x="13" y="14" width="6" height="14" rx="1"/>
-          <rect x="22" y="8" width="6" height="20" rx="1"/>
+        <svg class="icon-svg" viewBox="0 0 32 32" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="4" y="4" width="24" height="24" rx="2"/>
+          <path d="M4 12h24"/>
+          <path d="M12 12v16"/>
+          <path d="M8 18h4M8 22h4M16 18h8M16 22h8"/>
         </svg>
-        <span class="icon-label" style="color:rgba(255,255,255,0.9)">Finance</span>
+        <span class="icon-label">Finance</span>
       </div>
 
       <!-- Sales -->
       <div class="icon-item">
-        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M16 4l3 9h9l-7 5 3 9-8-6-8 6 3-9-7-5h9z"/>
+        <div class="icon-dot"></div>
+        <svg class="icon-svg" viewBox="0 0 32 32" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M16 4l2.5 7.5H26l-6.5 4.5 2.5 7.5L16 19l-6 4.5 2.5-7.5L6 11.5h7.5L16 4z"/>
         </svg>
         <span class="icon-label">Sales</span>
       </div>
 
       <!-- CS -->
       <div class="icon-item">
-        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <div class="icon-dot"></div>
+        <svg class="icon-svg" viewBox="0 0 32 32" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M28 18c0 4.418-5.373 8-12 8a14.6 14.6 0 01-5-.87L4 28l2.5-5.5C5.3 21 4 19.6 4 18c0-4.418 5.373-8 12-8s12 3.582 12 8z"/>
         </svg>
         <span class="icon-label">CS</span>
@@ -155,9 +264,10 @@
 
       <!-- Operations -->
       <div class="icon-item">
-        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <div class="icon-dot"></div>
+        <svg class="icon-svg" viewBox="0 0 32 32" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <circle cx="16" cy="16" r="4"/>
-          <path d="M16 4v4M16 24v4M4 16h4M24 16h4M7.03 7.03l2.83 2.83M22.14 22.14l2.83 2.83M7.03 24.97l2.83-2.83M22.14 9.86l2.83-2.83"/>
+          <path d="M16 4v4M16 24v4M4 16h4M24 16h4M7.5 7.5l2.8 2.8M21.7 21.7l2.8 2.8M7.5 24.5l2.8-2.8M21.7 10.3l2.8-2.8"/>
         </svg>
         <span class="icon-label">Ops</span>
       </div>
