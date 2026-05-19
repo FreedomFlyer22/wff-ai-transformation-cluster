@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1200">
+<title>Cover — AI Finance Automation</title>
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,400&display=swap" rel="stylesheet">
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { width:1200px; height:628px; overflow:hidden; background:#000; font-family:'Satoshi',-apple-system,sans-serif; }
+.canvas { width:1200px; height:628px; position:relative; background:#000; overflow:hidden; }
+.bg-glow { position:absolute; inset:0; background:radial-gradient(ellipse at 75% 100%, #001a0d 0%, #000a05 35%, #000000 65%); z-index:0; }
+.dot-grid { position:absolute; top:0; left:0; width:880px; height:628px; background-image:radial-gradient(circle,rgba(255,255,255,0.04) 1px,transparent 1px); background-size:32px 32px; z-index:1; }
+.right-col { position:absolute; top:0; right:0; width:320px; height:628px; background:linear-gradient(180deg,rgba(243,97,12,0.07) 0%,rgba(243,97,12,0.13) 100%); border-left:1px solid rgba(243,97,12,0.15); z-index:2; }
+.vline { position:absolute; left:50%; top:60px; bottom:60px; width:2px; transform:translateX(-50%); background:#F3610C; box-shadow:0 0 10px rgba(243,97,12,0.7); z-index:3; }
+.icons { position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:55px 0; z-index:4; }
+.icon-item { display:flex; flex-direction:column; align-items:center; flex:1; justify-content:center; position:relative; width:100%; }
+.icon-wrap { width:44px; height:44px; display:flex; align-items:center; justify-content:center; position:relative; z-index:5; }
+.icon-wrap svg { width:26px; height:26px; stroke:rgba(255,255,255,0.55); stroke-width:1.75; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+.icon-item.active .icon-wrap svg { stroke:#fff; width:30px; height:30px; filter:drop-shadow(0 0 5px rgba(255,255,255,0.35)); }
+.dot { display:none; position:absolute; left:-16px; top:50%; transform:translateY(-50%); width:8px; height:8px; border-radius:50%; background:#F3610C; box-shadow:0 0 6px rgba(243,97,12,0.9); }
+.icon-item.active .dot { display:block; }
+.lbl { margin-top:4px; font-size:10px; font-weight:500; color:rgba(255,255,255,0.45); letter-spacing:0.4px; text-transform:uppercase; }
+.icon-item.active .lbl { color:rgba(255,255,255,0.8); }
+.left { position:absolute; top:0; left:0; width:880px; height:628px; z-index:5; display:flex; flex-direction:column; justify-content:space-between; padding:44px 64px; }
+.logo { display:flex; align-items:center; gap:10px; }
+.logo svg { width:28px; height:28px; }
+.logo-text { font-size:17px; font-weight:700; color:#fff; letter-spacing:-0.3px; }
+.hl-block { flex:1; display:flex; flex-direction:column; justify-content:center; }
+.hl { font-size:68px; font-weight:900; color:#fff; letter-spacing:-2.5px; line-height:1.0; max-width:740px; }
+.hl .accent { color:#F3610C; }
+.rule { width:48px; height:2px; background:#F3610C; box-shadow:0 0 8px rgba(243,97,12,0.6); margin:20px 0; }
+.sub { font-size:17px; font-weight:400; color:#999; line-height:1.55; max-width:580px; }
+.bottom { display:flex; align-items:center; gap:16px; }
+.pill { display:inline-flex; align-items:center; background:#F3610C; color:#fff; font-size:12px; font-weight:700; letter-spacing:0.6px; text-transform:uppercase; padding:7px 16px; border-radius:100px; }
+.badge { display:inline-flex; align-items:center; border:1px solid rgba(255,255,255,0.15); color:rgba(255,255,255,0.4); font-size:11px; font-weight:500; padding:6px 14px; border-radius:100px; }
+</style>
+</head>
+<body>
+<div class="canvas">
+<div class="bg-glow"></div>
+<div class="dot-grid"></div>
+<div class="right-col">
+  <div class="vline"></div>
+  <div class="icons">
+    <div class="icon-item active">
+      <div class="icon-wrap"><div class="dot"></div>
+        <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+      </div><span class="lbl">Reporting</span>
+    </div>
+    <div class="icon-item">
+      <div class="icon-wrap">
+        <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+      </div><span class="lbl">Close</span>
+    </div>
+    <div class="icon-item">
+      <div class="icon-wrap">
+        <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+      </div><span class="lbl">AP</span>
+    </div>
+    <div class="icon-item">
+      <div class="icon-wrap">
+        <svg viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+      </div><span class="lbl">Cash Flow</span>
+    </div>
+  </div>
+</div>
+<div class="left">
+  <div class="logo">
+    <svg viewBox="0 0 28 28" fill="none"><rect width="28" height="28" rx="7" fill="#F3610C"/><path d="M7 9h14M7 14h9M7 19h11" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/></svg>
+    <span class="logo-text">WorkflowFiesta</span>
+  </div>
+  <div class="hl-block">
+    <div class="hl">AI Finance:<br>Automate the<br><span class="accent">Close, AP &amp;<br>Reporting</span></div>
+    <div class="rule"></div>
+    <p class="sub">Month-end close in 2 days. AP straight-through processing.<br>Weekly reports that write themselves.</p>
+  </div>
+  <div class="bottom">
+    <span class="pill">workflowfiesta.com</span>
+    <span class="badge">Article 04 of 08 — AI Transformation Series</span>
+  </div>
+</div>
+</div>
+</body>
+</html>
