@@ -1,0 +1,33 @@
+{
+  "title": "How AI Transforms Your Operations Department",
+  "slug": "ai-operations-transformation",
+  "meta_title": "AI Workflow Automation: The Operations Playbook for 2026",
+  "meta_description": "How operations teams use AI to automate cross-department reporting, IT support, vendor management, and approval routing — so ops leaders focus on decisions, not data movement.",
+  "primary_keyword": "ai workflow automation",
+  "secondary_keywords": ["automate business operations", "ai process automation", "operations efficiency ai", "business process automation ai", "it automation", "approval workflow automation", "vendor management automation"],
+  "category": "AI Transformation",
+  "author": "WorkflowFiesta Team",
+  "published_date": "2026-05-19",
+  "word_count": 3000,
+  "reading_time_minutes": 13,
+  "featured_image_alt": "AI workflow automation for operations — cross-department orchestration and process automation",
+  "internal_links": [
+    {"anchor": "complete ai transformation guide", "url": "/blog/ai-business-transformation"},
+    {"anchor": "how AI transforms your HR department", "url": "/blog/ai-hr-transformation"},
+    {"anchor": "how AI transforms your customer success department", "url": "/blog/ai-customer-success-transformation"},
+    {"anchor": "how AI productivity tools pay for themselves", "url": "/blog/ai-productivity-tools"}
+  ],
+  "social": {
+    "linkedin_cmo": "Operations is the connective tissue of every business. Every department's work eventually flows through operations — approvals, reporting, vendor management, IT support, process documentation.\n\nWhen operations runs on manual processes, every department slows down. When operations runs on automated workflows, every department moves faster.\n\nWe published a piece this week that maps the five operations workflows where AI delivers the fastest impact — with actual trigger-action sequences and a 30-day implementation plan.\n\nThe 3-question framework for identifying automatable workflows is the part I keep sharing with founders:\n\n1. Does this workflow follow the same steps every time it runs?\n2. Is the trigger clearly defined?\n3. Is the output clearly defined?\n\nIf a workflow passes all three, it is ready to automate. If it fails any of them, define the missing element before building.\n\nSimple framework. Saves a lot of wasted automation effort.\n\n→ /blog/ai-operations-transformation\n\n#Operations #AIAutomation #WorkflowFiesta",
+    "linkedin_brand": "Operations teams that run on automated workflows are not larger than the teams that run on manual processes.\n\nThey have identified the work that follows rules and handed it to machines.\n\nWorkflowFiesta automates the five operations workflows consuming most of the ops week:\n— Cross-department reporting (4-6 hours recovered per team member per week)\n— IT tier-1 support (60-70% of tickets resolved automatically)\n— Approval routing (4-8 hours vs. 2-5 business days)\n— Vendor management (90-day renewal alerts, automated invoice matching)\n— Compliance tracking (deadline monitoring, automated evidence collection)\n\nNo code. No engineers. No custom integrations to maintain.\n\nRead it: workflowfiesta.com/blog/ai-operations-transformation\n\nStart Free → app.workflowfiesta.com\n\n#Operations #AIAutomation #WorkflowFiesta",
+    "twitter_thread": [
+      "Operations is the connective tissue of every business. When it runs on manual processes, every department slows down. When it runs on automated workflows, every department moves faster. Here are the 5 workflows to automate first:",
+      "Workflow 1 — Cross-department reporting: Monday 7am, data pulled from all connected systems, normalized, formatted into 3 versions (exec summary, dept breakdown, full data), distributed automatically. 4-6 hours recovered per team member per week.",
+      "Workflow 2 — IT tier-1 support: ticket created → classified → resolution runbook checked → if known, automated response sent or action taken → if novel, routed to engineer with context. 60-70% of IT tickets resolved without human involvement.",
+      "Workflow 3 — Approval routing: request submitted → classified → routed to correct approver(s) → one-click approve/reject via Slack → approved = next step triggered → no response in 48 hours = escalated. Standard approvals in 4-8 hours vs. 2-5 business days.",
+      "Workflow 4 — Vendor management: 90-day renewal alerts, automated invoice matching against contract terms, quarterly review scheduling, performance data pulled automatically. No more spreadsheet that is perpetually out of date.",
+      "Workflow 5 — Compliance tracking: deadline monitoring, 30/14/7-day reminders, automated evidence collection for SOC 2 and ISO 27001, completion reports generated automatically. Compliance that runs on schedule regardless of how busy the week was.",
+      "Full trigger-action architecture + 30-day implementation plan: workflowfiesta.com/blog/ai-operations-transformation\n\nStart Free → app.workflowfiesta.com"
+    ]
+  }
+}
