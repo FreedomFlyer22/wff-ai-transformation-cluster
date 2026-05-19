@@ -1,173 +1,103 @@
-# 13 — Brand Distribution Posts (WorkflowFiesta Company Voice)
+# 13 — Brand Posts (LinkedIn + Twitter/X)
 ## Article: How to Do an AI Transformation (Your Business, Department by Department)
 ## Pipeline Step: 13 of 16 | Date: 2026-05-19
-## Writer: Brand Post Writer Agent
+## Voice: WorkflowFiesta brand — objective, product-focused, no "we/our"
 
 ---
 
-## LINKEDIN — Brand Post #1 (Educational, long-form)
+## LINKEDIN POST — Brand (WorkflowFiesta)
 
-**WorkflowFiesta** | AI Transformation
+AI transformation isn't a technology project. It's an operations project.
 
-Most businesses approach AI transformation backwards.
+The companies seeing real ROI from AI have one thing in common: they started with a workflow, not a tool.
 
-They buy tools first. Then ask what to do with them.
+Finance teams cutting month-end close time by 50%. HR teams recovering 15 hours per hire. CS teams resolving 60% of tier-1 tickets automatically.
 
-The result: a stack of AI subscriptions, a few experiments that worked, and no clear picture of whether any of it is moving the business forward.
+The pattern is consistent: identify the highest-volume manual workflow, map every step, build the AI version, measure it for 30 days, move to the next one.
 
-AI transformation that actually compounds starts with workflows, not tools.
+WorkflowFiesta published a department-by-department guide covering HR, marketing, finance, sales, customer success, and operations — with specific workflows, a four-phase roadmap, and a measurement framework.
 
-Here is the sequence that works:
+No consultants required.
 
-**1. Map the work before buying anything.**
-Every department has high-volume, repeatable workflows running on human time. Recruiting coordination. Report generation. Ticket routing. Invoice processing. These are your automation targets. Rank them by volume × time cost × error rate.
+Read the guide → [link]
 
-**2. Build pilots with tight scope.**
-One trigger. Defined actions. Clear output. Measure the baseline before deploying. Measure again at 30 days. If the numbers are not there, fix the workflow before scaling it.
-
-**3. Connect the workflows.**
-This is where most teams stop short. Individual automated workflows are useful. Connected workflows — where a signal in one system automatically triggers coordinated actions across three others — are transformative. That connection layer is the orchestration platform.
-
-**4. Treat it as a continuous operating mode.**
-AI transformation does not have a go-live date. It is a program you run indefinitely — adding workflows, refining agents, expanding coverage as the business grows.
-
-WorkflowFiesta is built for this. Multi-step AI agents, dynamic model routing, cross-department workflow orchestration, no-code interface.
-
-The full department-by-department guide — HR, marketing, finance, sales, CS, operations — is linked below.
-
-→ workflowfiesta.com/blog/ai-business-transformation
-
-#AITransformation #WorkflowAutomation #AIStrategy #BusinessOperations
+#AITransformation #WorkflowAutomation #BusinessAI #Operations
 
 ---
 
-## LINKEDIN — Brand Post #2 (Short, punchy)
+## LINKEDIN POST — Brand Short (WorkflowFiesta)
 
-**WorkflowFiesta** | AI Transformation
+Six departments. One AI transformation framework.
 
-Six departments. One orchestration layer. Zero consultants required.
+HR: 30–40% faster time-to-hire
+Finance: up to 50–60% reduction in report generation time
+CS: 40–60% faster tier-1 ticket resolution
 
-The new AI transformation guide covers what it actually looks like to automate HR, marketing, finance, sales, customer success, and operations — with specific trigger-action sequences, a four-phase roadmap, and a platform comparison.
+WorkflowFiesta's department-by-department AI transformation guide covers the specific workflows, the four-phase roadmap, and how to measure whether it's working.
 
-No theory. No hype. Just the workflows.
-
-→ workflowfiesta.com/blog/ai-business-transformation
-
-#AITransformation #WorkflowAutomation #NoCode
+Read it → [link]
 
 ---
 
-## TWITTER/X — Thread (7 tweets)
+## TWITTER/X THREAD — Brand (WorkflowFiesta)
 
-**Tweet 1 (hook):**
-Most AI transformation projects fail before they produce anything useful.
+**Tweet 1:**
+Most AI transformation initiatives stall within 6 months.
 
-Not because the tech doesn't work.
-
-Because the team started with the wrong question.
-
-A thread on what actually works 🧵
-
----
+Four failure modes account for almost all of them. A thread 🧵
 
 **Tweet 2:**
-The wrong question: "What AI tools should we buy?"
+Failure mode 1: Starting with tools instead of workflows.
 
-The right question: "Which workflow is costing us the most time right now — and what would it look like if that workflow ran itself?"
+Teams buy an AI platform and ask "what should we use this for?"
 
-One leads to subscriptions. The other leads to an operating model change.
-
----
+Wrong order. Identify the highest-volume manual workflow first. Map every step. Then find the AI that fits.
 
 **Tweet 3:**
-The four phases that work:
+Failure mode 2: No trigger-action architecture.
 
-Phase 1 (Weeks 1–4): Audit every manual workflow. Rank by ROI. Pick top 5 pilots.
+"Use AI to improve customer service" is not a workflow.
 
-Phase 2 (Months 2–3): Build pilots. Measure baseline. Measure at 30 days.
-
-Phase 3 (Months 4–6): Scale proven pilots. Connect workflows across departments.
-
-Phase 4 (Month 7+): Orchestrate. No end date.
-
----
+"When a ticket is created with CSAT below 7, extract the category, search the knowledge base, draft a resolution, assign to tier-2" is a workflow.
 
 **Tweet 4:**
-The department breakdown:
+Failure mode 3: Treating it as an IT project.
 
-HR → recruiting pipeline, onboarding sequences
-Marketing → content pipeline, campaign monitoring
-Finance → month-end close, AP processing
-Sales → lead enrichment, outreach sequencing
-CS → ticket triage, churn monitoring
-Ops → IT support, cross-dept reporting
+Finance doesn't change how it closes the books because IT deployed a new tool.
 
----
+AI transformation has to be owned by department heads — people with P&L accountability and operational authority.
 
 **Tweet 5:**
-The piece most guides miss: individual workflows are not enough.
+Failure mode 4: Skipping the measurement baseline.
 
-The real leverage comes from connecting them.
+Before deploying any AI workflow: record time per task, error rate, weekly volume.
 
-A customer signal should trigger a CS task AND update the CRM AND alert the AE AND generate a risk report.
+Measure the same metrics 30 days post-deployment.
 
-That connection layer is the orchestration platform.
-
----
+Without a baseline, you can't prove ROI. Without ROI, the next phase doesn't get funded.
 
 **Tweet 6:**
-What you actually need to start:
+The companies getting real ROI from AI right now aren't the ones with the biggest budgets.
 
-✅ A clear process to automate (not a vague goal)
-✅ An orchestration platform
-✅ One internal champion per department
-✅ A 60-day pilot timeline
-✅ A measurement baseline
+They're the ones who picked a workflow, automated it, measured it, and moved to the next one.
 
-❌ Data science team
-❌ $500K consulting engagement
-❌ System overhaul
+Full department-by-department guide (HR, marketing, finance, sales, CS, ops) → [link]
 
 ---
 
-**Tweet 7 (CTA):**
-Full guide — department-by-department breakdown, metrics tables, platform comparison, four-phase roadmap:
+## TWITTER/X — Single Post (WorkflowFiesta)
 
-workflowfiesta.com/blog/ai-business-transformation
+AI transformation by department:
 
-Built this for ops leaders who want the practical version, not the consultant version.
+HR → 30–40% faster time-to-hire
+Finance → up to 50–60% less time on reporting
+CS → 40–60% faster tier-1 resolution
+Sales → 2× outreach per rep
 
----
+No data scientists. No consultants. Just operators who mapped their workflows and automated them.
 
-## TWITTER/X — Standalone Tweets (3 options, pick one)
-
-**Option A:**
-AI transformation is not about buying more AI tools.
-
-It is about connecting the ones you have into workflows that run themselves.
-
-Department-by-department breakdown: workflowfiesta.com/blog/ai-business-transformation
+Full guide → [link]
 
 ---
 
-**Option B:**
-The companies winning with AI right now have one thing in common.
-
-They started with workflows, not tools.
-
-Full playbook: workflowfiesta.com/blog/ai-business-transformation
-
----
-
-**Option C:**
-Six departments. Four phases. One orchestration layer.
-
-The practical AI transformation guide for ops leaders who want results, not theory.
-
-workflowfiesta.com/blog/ai-business-transformation
-
----
-
-*Pipeline step: 13-brand-posts | Date: 2026-05-19*
-*Posts: LinkedIn long-form, LinkedIn short, Twitter thread (7 tweets), Twitter standalone (3 options)*
-*Next: 14-interlinked-article.md (Interlinking Auditor)*
+*Pipeline Step: 13 — Brand Post Writer | Date: 2026-05-19*
