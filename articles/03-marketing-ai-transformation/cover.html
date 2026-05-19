@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1200">
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,400&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { width: 1200px; height: 628px; overflow: hidden; background: #000; font-family: 'Satoshi', -apple-system, sans-serif; }
+  .canvas {
+    width: 1200px; height: 628px; position: relative;
+    background: radial-gradient(ellipse at 80% 90%, #1a0800 0%, #000000 55%);
+    display: flex;
+  }
+  .left {
+    flex: 1;
+    padding: 56px 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+  }
+  .dot-grid {
+    position: absolute; top: 0; left: 0; right: 320px; bottom: 0;
+    background-image: radial-gradient(circle, rgba(255,255,255,0.04) 1px, transparent 1px);
+    background-size: 32px 32px;
+    z-index: 1;
+  }
+  .logo { font-size: 18px; font-weight: 700; color: #fff; letter-spacing: -0.3px; }
+  .logo span { color: #F3610C; }
+  .content { flex: 1; display: flex; flex-direction: column; justify-content: center; padding: 20px 0; }
+  .tag {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: rgba(243,97,12,0.15); border: 1px solid rgba(243,97,12,0.3);
+    color: #F3610C; font-size: 12px; font-weight: 700; letter-spacing: 1px;
+    text-transform: uppercase; padding: 6px 14px; border-radius: 20px;
+    width: fit-content; margin-bottom: 28px;
+  }
+  .accent-line {
+    width: 48px; height: 2px; background: #F3610C;
+    box-shadow: 0 0 8px rgba(243,97,12,0.6);
+    margin-bottom: 24px;
+  }
+  h1 { font-size: 68px; font-weight: 900; color: #fff; line-height: 1.05; letter-spacing: -2.5px; margin-bottom: 20px; max-width: 720px; }
+  h1 .highlight { color: #F3610C; }
+  .sub { font-size: 20px; font-weight: 400; color: #888; line-height: 1.5; max-width: 620px; }
+  .bottom { display: flex; align-items: center; gap: 16px; }
+  .pill { background: #F3610C; color: #fff; font-size: 12px; font-weight: 700; padding: 7px 16px; border-radius: 20px; letter-spacing: 0.5px; }
+  .meta { font-size: 13px; color: #555; font-weight: 500; }
+  .right {
+    width: 300px; height: 628px;
+    background: linear-gradient(180deg, rgba(243,97,12,0.06) 0%, rgba(243,97,12,0.12) 100%);
+    border-left: 1px solid rgba(243,97,12,0.1);
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    position: relative; gap: 0;
+  }
+  .connector {
+    position: absolute; left: 50%; top: 80px; bottom: 80px;
+    width: 2px; background: #F3610C;
+    box-shadow: 0 0 10px rgba(243,97,12,0.5);
+    transform: translateX(-50%);
+  }
+  .workflow-item {
+    display: flex; flex-direction: column; align-items: center;
+    position: relative; z-index: 2; padding: 18px 0;
+  }
+  .icon-wrap {
+    width: 44px; height: 44px; background: #0a0a0a;
+    border: 1.5px solid rgba(243,97,12,0.3);
+    border-radius: 12px; display: flex; align-items: center; justify-content: center;
+    margin-bottom: 6px;
+  }
+  .icon-wrap.active {
+    border-color: #F3610C;
+    box-shadow: 0 0 16px rgba(243,97,12,0.4);
+    background: rgba(243,97,12,0.08);
+  }
+  .icon-wrap svg { width: 20px; height: 20px; }
+  .icon-label { font-size: 10px; font-weight: 600; color: rgba(255,255,255,0.5); letter-spacing: 0.5px; text-transform: uppercase; }
+  .icon-label.active { color: #F3610C; }
+</style>
+</head>
+<body>
+<div class="canvas">
+  <div class="dot-grid"></div>
+  <div class="left">
+    <div class="logo">Workflow<span>Fiesta</span></div>
+    <div class="content">
+      <div class="tag">AI Transformation Series</div>
+      <div class="accent-line"></div>
+      <h1>How AI Transforms Your <span class="highlight">Marketing</span> Department</h1>
+      <p class="sub">5 workflows that eliminate the operational load — so your team spends time on strategy, not spreadsheets.</p>
+    </div>
+    <div class="bottom">
+      <div class="pill">workflowfiesta.com</div>
+      <div class="meta">2,900 words · 2026 Guide</div>
+    </div>
+  </div>
+  <div class="right">
+    <div class="connector"></div>
+    <div class="workflow-item">
+      <div class="icon-wrap">
+        <svg viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="1.5"><path d="M12 20h9M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+      </div>
+      <div class="icon-label">Content</div>
+    </div>
+    <div class="workflow-item">
+      <div class="icon-wrap active">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#F3610C" stroke-width="1.5"><path d="M3 3h18v18H3zM3 9h18M9 21V9"/></svg>
+      </div>
+      <div class="icon-label active">Campaigns</div>
+    </div>
+    <div class="workflow-item">
+      <div class="icon-wrap">
+        <svg viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="1.5"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+      </div>
+      <div class="icon-label">Social</div>
+    </div>
+    <div class="workflow-item">
+      <div class="icon-wrap">
+        <svg viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      </div>
+      <div class="icon-label">Email</div>
+    </div>
+    <div class="workflow-item">
+      <div class="icon-wrap">
+        <svg viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </div>
+      <div class="icon-label">Intel</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
