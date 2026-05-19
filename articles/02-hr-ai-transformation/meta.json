@@ -1,0 +1,75 @@
+{
+  "article": {
+    "number": 2,
+    "cluster": "WorkflowFiesta AI Transformation Series",
+    "title": "How AI Transforms Your HR Department",
+    "slug": "ai-hr-transformation",
+    "url": "https://workflowfiesta.com/blog/ai-hr-transformation",
+    "status": "publish-ready"
+  },
+  "seo": {
+    "meta_title": "How AI Transforms Your HR Department (2026)",
+    "meta_description": "AI for HR teams: automate recruiting, onboarding, and people ops workflows. See the 5 highest-ROI HR automations and how to build them without code.",
+    "primary_keyword": "ai for hr",
+    "primary_keyword_volume": 3600,
+    "primary_keyword_tier": 1,
+    "secondary_keywords": [
+      "ai recruiting automation",
+      "hr workflow automation",
+      "automate onboarding",
+      "ai people operations",
+      "ai talent acquisition",
+      "automate hr processes"
+    ],
+    "word_count": 2620,
+    "reading_time_minutes": 11
+  },
+  "internal_links": {
+    "links_out": [
+      {
+        "anchor": "complete AI transformation guide",
+        "url": "/blog/ai-business-transformation",
+        "article": "Article 01 — Pillar"
+      },
+      {
+        "anchor": "how AI productivity tools pay for themselves",
+        "url": "/blog/ai-productivity-tools",
+        "article": "Article 08 — ROI"
+      },
+      {
+        "anchor": "operations transformation guide",
+        "url": "/blog/ai-operations-transformation",
+        "article": "Article 07 — Operations"
+      }
+    ],
+    "links_in_needed": [
+      {
+        "from_article": "Article 01 — Pillar",
+        "anchor": "how AI transforms your HR department",
+        "url": "/blog/ai-hr-transformation"
+      }
+    ]
+  },
+  "content": {
+    "sections": [
+      "Where HR Time Actually Goes",
+      "The 5 HR Workflows AI Handles Best",
+      "What AI Cannot Replace in HR",
+      "Building Your HR AI Stack",
+      "Measuring HR AI ROI",
+      "The First HR Workflow to Automate",
+      "FAQ (7 questions)"
+    ],
+    "cta_count": 2,
+    "faq_count": 7,
+    "schema": ["FAQPage", "Article"]
+  },
+  "files": {
+    "article": "article.html",
+    "cover": "cover.html",
+    "posts": "posts.md",
+    "meta": "meta.json"
+  },
+  "product": "WorkflowFiesta",
+  "generated": "2026-05-19"
+}
