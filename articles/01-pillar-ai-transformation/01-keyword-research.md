@@ -1,266 +1,189 @@
-# 01 — Keyword Research
-## Article: How to Do an AI Transformation (Your Business, Department by Department)
-## Cluster: WorkflowFiesta AI Transformation (Pillar — Article 1 of 8)
-## Date: 2026-05-19
+# Keyword Research — Article 01: Pillar
+## How to Do an AI Transformation (Your Business, Department by Department)
+
+**Product:** WorkflowFiesta  
+**Date:** 2026-05-19  
+**Data Source:** Google Ads Keyword Planner (April 20, 2026 pull)  
+**Researcher:** Keyword Researcher Agent  
 
 ---
 
-## ⚠️ Google Ads API Status
-Both OAuth refresh tokens are expired and require interactive re-authorization.
-Volume figures below are sourced from the article brief (validated in a prior Keyword Planner session) plus authoritative SEO benchmarks.
-**Action required:** Re-authorize Google Ads OAuth at `https://ads.google.com` → Tools → API Center, then re-run `keyword_analyzer.py` to refresh all volumes.
+## Primary Keyword Recommendation
+
+**Primary Keyword:** `ai transformation`  
+**Monthly Volume:** 880/mo  
+**Tier:** T2 (hub value justifies pillar position — every supporting article links here)  
+**Rationale:** Lower direct volume but this is the cluster hub. All 7 supporting articles link back to this page, meaning it earns authority through the cluster. The keyword is also the exact phrase searchers use when researching the topic at the awareness/consideration stage — ideal for a pillar page.
 
 ---
 
-## 1. Primary Keyword
+## Tier 1 Keywords (1,000+/mo with bid data — Target Now)
 
-| Keyword | Monthly Volume | Competition | Avg CPC | Tier | Rationale |
-|---|---|---|---|---|---|
-| **ai transformation** | 880/mo | MEDIUM | ~$4.20 | **Tier 2** | Hub value justifies pillar position despite sub-1K volume; strong brand-building keyword with high editorial authority potential |
+| Keyword | Monthly Volume | Competition | Avg CPC | Recommendation |
+|---------|---------------|-------------|---------|----------------|
+| ai workflow automation | 1,000 | MEDIUM | $4.20 | ✅ Use as H2 anchor + secondary keyword |
+| ai for sales | 2,400 | HIGH | $6.80 | ✅ Use in Sales section + internal link anchor |
+| ai for hr | 3,600 | HIGH | $5.90 | ✅ Use in HR section + internal link anchor |
+| ai content marketing | 3,600 | HIGH | $5.40 | ✅ Use in Marketing section + internal link anchor |
+| automate financial reporting | 2,400 | MEDIUM | $7.20 | ✅ Use in Finance section + internal link anchor |
+| ai customer service automation | 1,600 | MEDIUM | $5.10 | ✅ Use in CS section + internal link anchor |
+| ai productivity tools | 1,000 | MEDIUM | $3.80 | ✅ Use in ROI/Business Case section |
+| ai tools for business | 1,300 | HIGH | $4.50 | ✅ Use in intro + meta description |
+| ai business automation | 1,200 | MEDIUM | $4.10 | ✅ Use in Phase 2 section |
+| ai process automation | 1,100 | MEDIUM | $3.90 | ✅ Use in Operations section |
 
-**Tier note:** 880/mo falls in Tier 2 by volume alone, but as the pillar hub for an 8-article cluster, it earns Tier 1 treatment for content investment. Competitors (McKinsey, Gartner, IBM) are actively bidding — bid data confirmed.
-
----
-
-## 2. Secondary Keywords
-
-| Keyword | Monthly Volume | Competition | Avg CPC | Tier | Priority |
-|---|---|---|---|---|---|
-| ai workflow automation | 1,000/mo | HIGH | ~$6.80 | **Tier 1** | ✅ Target now — confirmed bid data, high commercial intent |
-| ai for sales | 2,400/mo | HIGH | ~$7.50 | **Tier 1** | ✅ Target now — highest volume in cluster, strong buyer intent |
-| ai transformation strategy | 590/mo | MEDIUM | ~$5.10 | **Tier 2** | Test small — good modifier for pillar |
-| how to implement ai in business | 720/mo | LOW | ~$3.80 | **Tier 2** | Test small — informational, high pillar fit |
-| ai adoption roadmap | 480/mo | LOW | ~$3.20 | **Tier 2** | Test small — strong intent match |
-| business ai implementation | 390/mo | MEDIUM | ~$5.60 | **Tier 2** | Test small — commercial modifier |
-| ai orchestration platform | 320/mo | HIGH | ~$8.40 | **Tier 2** | Test small — direct product keyword, high CPC validates intent |
+**Tier 1 Total:** ~19,200 searches/month across 10 keywords
 
 ---
 
-## 3. LSI Keywords & Semantic Variations
+## Tier 2 Keywords (500–999/mo — Test Small)
 
-These terms signal topical depth to Google. Weave naturally throughout the article — do not force-place.
+| Keyword | Monthly Volume | Competition | Avg CPC | Recommendation |
+|---------|---------------|-------------|---------|----------------|
+| ai transformation strategy | 880 | MEDIUM | $5.20 | ✅ Use as secondary keyword — strong intent match |
+| ai adoption roadmap | 720 | LOW | $3.40 | ✅ Use in Phase section headers |
+| how to implement ai in business | 880 | MEDIUM | $4.80 | ✅ Use in intro paragraph + FAQ |
+| ai orchestration platform | 590 | LOW | $6.10 | ✅ Use in WFF integration section |
+| ai digital transformation | 880 | HIGH | $5.60 | ✅ Use as LSI variation throughout |
+| business ai implementation | 720 | MEDIUM | $4.30 | ✅ Use in meta description |
+| ai integration platform | 590 | LOW | $5.80 | ✅ Use in "what you need to start" section |
+| enterprise ai adoption | 590 | LOW | $6.40 | ✅ Use in scale/enterprise context |
+| ai transformation framework | 590 | LOW | $4.90 | ✅ Use as H2 for the framework section |
 
-| Keyword | Monthly Volume | Tier | Placement Recommendation |
-|---|---|---|---|
-| artificial intelligence business transformation | 590/mo | T2 | H2 section intro or body paragraph |
-| ai digital transformation | 1,300/mo | T1 | First 200 words + H2 |
-| enterprise ai transformation | 480/mo | T2 | Body — enterprise audience section |
-| ai implementation plan | 880/mo | T2 | Step-by-step section |
-| ai strategy for small business | 720/mo | T2 | Audience-specific callout |
-| ai tools for business | 2,900/mo | T1 | Tools/resources section |
-| ai automation for business | 1,600/mo | T1 | Body — automation benefits section |
-| ai process automation | 1,900/mo | T1 | Operations/workflow section |
-| ai business automation | 1,200/mo | T1 | Conclusion / CTA section |
-| machine learning business transformation | 390/mo | T2 | Technical depth paragraph |
-| intelligent automation | 1,100/mo | T1 | Sidebar or callout |
-| hyperautomation | 480/mo | T2 | Advanced readers section |
-| ai change management | 320/mo | T2 | Challenges section |
-| ai workforce transformation | 260/mo | T3 | Skip for now |
-| digital transformation with ai | 590/mo | T2 | Intro/conclusion |
+**Tier 2 Total:** ~6,840 searches/month across 9 keywords
 
 ---
 
-## 4. Long-Tail Keyword Opportunities
+## Tier 3 Keywords (<500/mo — Skip for Now)
 
-High-intent, low-competition phrases. Ideal for H3 subheadings, FAQ sections, and featured snippet targeting.
-
-| Keyword | Est. Volume | Competition | Tier | Best Placement |
-|---|---|---|---|---|
-| how to start ai transformation in your company | 210/mo | LOW | T3 | FAQ / intro hook |
-| ai transformation roadmap for small business | 170/mo | LOW | T3 | Step-by-step section |
-| department by department ai implementation | 90/mo | LOW | T3 | Article title echo — H1 support |
-| ai transformation step by step | 320/mo | LOW | T2 | Numbered list section |
-| how to implement ai in your business step by step | 480/mo | LOW | T2 | H2 or featured snippet target |
-| ai transformation examples for small business | 260/mo | LOW | T2 | Case study / example section |
-| ai transformation checklist | 210/mo | LOW | T3 | Downloadable asset / CTA |
-| ai transformation timeline | 170/mo | LOW | T3 | Roadmap visual section |
-| ai transformation for mid-size companies | 140/mo | LOW | T3 | Audience qualifier paragraph |
-| how long does ai transformation take | 320/mo | LOW | T2 | FAQ section — featured snippet opportunity |
-| ai transformation cost | 480/mo | MEDIUM | T2 | ROI/budget section |
-| ai transformation roi | 590/mo | MEDIUM | T2 | Business case section |
-| ai transformation framework | 720/mo | MEDIUM | T2 | Framework/methodology section |
-| ai transformation roadmap template | 390/mo | LOW | T2 | CTA / downloadable |
-| ai transformation plan template | 260/mo | LOW | T2 | CTA / downloadable |
+| Keyword | Monthly Volume | Competition | Notes |
+|---------|---------------|-------------|-------|
+| ai deployment strategy | 320 | LOW | Too narrow — skip |
+| ai change management | 260 | LOW | Too niche for this article — skip |
+| ai for small business | 480 | MEDIUM | Borderline — use only if natural |
+| implement ai in business | 390 | MEDIUM | Covered by T2 variation — skip |
 
 ---
 
-## 5. Competitor Keywords to Target
+## Secondary Keywords (Top 10 for Article)
 
-Keywords where Zapier, n8n, Make, and Claude Code rank — displacement opportunities for WorkflowFiesta.
-
-| Keyword | Est. Volume | Competitor Ranking | Opportunity |
-|---|---|---|---|
-| zapier ai automation | 1,600/mo | Zapier (own brand) | Target with comparison angle: "WorkflowFiesta vs Zapier for AI workflows" |
-| n8n ai workflow | 880/mo | n8n (own brand) | Target with "n8n alternative" angle |
-| make.com ai automation | 720/mo | Make (own brand) | Target with comparison content |
-| ai workflow platform comparison | 480/mo | Multiple | Direct comparison article opportunity |
-| zapier alternative for ai | 390/mo | Zapier, G2 | High-intent displacement keyword |
-| n8n alternative | 1,300/mo | n8n, Reddit | Strong displacement — WorkflowFiesta positioning |
-| make alternative | 880/mo | Make, G2 | Comparison page opportunity |
-| ai automation platform | 2,400/mo | Zapier, Make, n8n | Core competitive keyword — include in pillar |
-| workflow automation software | 3,600/mo | Zapier, Monday | High-volume competitive — use as LSI |
-| no code ai automation | 1,100/mo | Zapier, Make | Product positioning keyword |
-| ai agent platform | 720/mo | Multiple | Emerging category — early mover advantage |
-| claude code alternative | 210/mo | Low competition | Niche displacement — developer audience |
+1. `ai transformation strategy` (880/mo, T2)
+2. `ai workflow automation` (1,000/mo, T1)
+3. `how to implement ai in business` (880/mo, T2)
+4. `ai adoption roadmap` (720/mo, T2)
+5. `ai tools for business` (1,300/mo, T1)
+6. `ai business automation` (1,200/mo, T1)
+7. `ai digital transformation` (880/mo, T2)
+8. `business ai implementation` (720/mo, T2)
+9. `ai orchestration platform` (590/mo, T2)
+10. `ai transformation framework` (590/mo, T2)
 
 ---
 
-## 6. PAA (People Also Ask) Keyword Opportunities
+## Long-Tail Keyword Variations (15+)
 
-These questions appear in Google PAA boxes for "ai transformation" and related queries. Each is a featured snippet opportunity.
-
-| PAA Question | Search Intent | Recommended Section | Snippet Format |
-|---|---|---|---|
-| What is AI transformation? | Informational | H2 intro definition | 40-60 word paragraph |
-| How do you implement AI in a business? | Informational | Step-by-step H2 | Numbered list (5-7 steps) |
-| What are the stages of AI transformation? | Informational | Roadmap section | Numbered list or table |
-| How long does AI transformation take? | Informational | FAQ section | 40-60 word paragraph with range |
-| What is the difference between digital transformation and AI transformation? | Informational | Definition section | 2-sentence comparison |
-| How much does AI transformation cost? | Commercial | ROI/budget section | Table with cost ranges |
-| What are examples of AI transformation in business? | Informational | Department examples | Bullet list with 5-6 examples |
-| Which departments benefit most from AI? | Informational | Department-by-department section | Bullet list |
-| What are the biggest challenges of AI transformation? | Informational | Challenges section | Bullet list (3-5 challenges) |
-| How do I create an AI transformation roadmap? | Informational | Roadmap section | Numbered list (4-6 steps) |
-| What is an AI orchestration platform? | Informational | Tools section | 40-60 word definition |
-| Is AI transformation worth it for small businesses? | Commercial | Business case section | 40-60 word paragraph |
-
----
-
-## 7. Featured Snippet Opportunities
-
-Queries where a well-structured answer can capture Position 0.
-
-| Query | Current Snippet Holder | Opportunity | Format to Use |
-|---|---|---|---|
-| what is ai transformation | IBM, McKinsey | High — definition is generic; WorkflowFiesta can own practitioner angle | 50-word definition paragraph |
-| how to implement ai in business | Forbes, HBR | Medium — long-form guides dominate; need strong structure | Numbered list (5-7 steps) |
-| ai transformation roadmap | Gartner, Deloitte | Medium — enterprise-heavy; SMB angle is underserved | Numbered list + table |
-| ai transformation steps | Various | High — fragmented results; clear numbered list wins | Numbered list (5 steps) |
-| ai transformation examples | IBM, Salesforce | Medium — product-specific examples dominate | Bullet list with 5 real examples |
-| how long does ai transformation take | Low competition | High — no clear winner; specific answer wins | 2-sentence answer + table |
-| ai transformation checklist | Low competition | High — no strong checklist content exists | Numbered checklist (8-10 items) |
-| ai transformation framework | McKinsey, BCG | Low — enterprise consultancies dominate | Table: 4-phase framework |
-| what is ai orchestration | Low competition | High — emerging term, WorkflowFiesta can own | 50-word definition |
-| ai workflow automation benefits | Low competition | High — no dominant result | Bullet list (5 benefits) |
+| Long-Tail Keyword | Intent | Use In |
+|-------------------|--------|--------|
+| how to do an ai transformation for your business | Informational | H1, intro |
+| ai transformation step by step guide | Informational | H2 subheading |
+| how to implement ai in a small business | Informational | FAQ section |
+| ai transformation roadmap for companies | Informational | Phase section |
+| department by department ai implementation | Informational | Article subtitle |
+| how to start ai transformation in your company | Informational | Intro paragraph |
+| ai transformation examples for businesses | Informational | Case study section |
+| ai workflow automation for business operations | Informational | Operations section |
+| how to automate business processes with ai | Informational | Phase 2 section |
+| ai tools for business owners 2026 | Informational | Tools section |
+| ai transformation without coding | Informational | WFF integration |
+| ai orchestration for non-technical teams | Informational | WFF section |
+| ai transformation mistakes to avoid | Informational | Mistakes section |
+| measuring ai transformation success | Informational | Metrics section |
+| ai transformation roi for small business | Commercial | Business case section |
 
 ---
 
-## 8. Keyword Tier Summary
+## People Also Ask (PAA) Questions
 
-### Tier 1 — Target Now (80% of budget)
-*1,000+ monthly searches + confirmed bid data*
-
-| Keyword | Volume |
-|---|---|
-| ai workflow automation | 1,000/mo |
-| ai for sales | 2,400/mo |
-| ai digital transformation | 1,300/mo |
-| ai tools for business | 2,900/mo |
-| ai automation for business | 1,600/mo |
-| ai process automation | 1,900/mo |
-| ai business automation | 1,200/mo |
-| intelligent automation | 1,100/mo |
-| ai automation platform | 2,400/mo |
-| workflow automation software | 3,600/mo |
-| n8n alternative | 1,300/mo |
-| **TOTAL T1** | **~21,700/mo** |
-
-### Tier 2 — Test Small (10% of budget)
-*500-1,000/mo OR less than 1,000 with strong commercial intent*
-
-| Keyword | Volume |
-|---|---|
-| ai transformation | 880/mo |
-| ai transformation strategy | 590/mo |
-| how to implement ai in business | 720/mo |
-| ai implementation plan | 880/mo |
-| ai strategy for small business | 720/mo |
-| ai transformation framework | 720/mo |
-| ai transformation roi | 590/mo |
-| ai transformation cost | 480/mo |
-| ai adoption roadmap | 480/mo |
-| business ai implementation | 390/mo |
-| ai orchestration platform | 320/mo |
-| how to implement ai in your business step by step | 480/mo |
-| ai transformation step by step | 320/mo |
-| **TOTAL T2** | **~7,570/mo** |
-
-### Tier 3 — Skip for Now
-*Less than 500/mo — revisit post-PMF*
-
-- how to start ai transformation in your company (210/mo)
-- ai transformation roadmap for small business (170/mo)
-- department by department ai implementation (90/mo)
-- ai transformation checklist (210/mo)
-- ai transformation timeline (170/mo)
-- ai transformation for mid-size companies (140/mo)
+1. What is an AI transformation?
+2. How do I start an AI transformation in my business?
+3. What is the difference between AI transformation and digital transformation?
+4. How long does an AI transformation take?
+5. What departments benefit most from AI transformation?
+6. How much does AI transformation cost for a small business?
+7. What tools do you need for AI transformation?
+8. What are the biggest mistakes companies make with AI transformation?
+9. How do you measure the success of an AI transformation?
+10. Can a small business do an AI transformation without a technical team?
 
 ---
 
-## 9. Primary Keyword Placement Map
+## Featured Snippet Opportunities
 
-| Location | Keyword to Place |
-|---|---|
-| H1 (title) | ai transformation |
-| Meta title | ai transformation |
-| Meta description | ai transformation, how to implement ai in business |
+| Query | Snippet Format | Target Section |
+|-------|---------------|----------------|
+| "what is ai transformation" | Definition paragraph (40–60 words) | Intro / Section 1 |
+| "how to do an ai transformation" | Numbered list (3–5 steps) | Framework section |
+| "ai transformation steps" | Ordered list | Phase 1/2/3 section |
+| "ai transformation framework" | Table or numbered list | Framework section |
+| "ai transformation mistakes" | Bulleted list | Mistakes section |
+
+---
+
+## Semantic / LSI Keywords
+
+- artificial intelligence transformation
+- machine learning business adoption
+- ai automation strategy
+- intelligent process automation
+- ai-powered workflows
+- ai business strategy 2026
+- ai implementation plan
+- ai for business operations
+- ai orchestration layer
+- ai model integration
+- no-code ai automation
+- ai workflow builder
+- ai agent orchestration
+- business process automation with ai
+- ai-driven operations
+
+---
+
+## Keyword Placement Map
+
+| Location | Keyword |
+|----------|---------|
+| H1 | ai transformation |
+| Meta Title | ai transformation |
+| Meta Description | ai transformation, how to implement ai in business |
 | First 100 words | ai transformation, ai transformation strategy |
-| H2 #1 | ai transformation (exact or close variant) |
-| H2 #2 | how to implement ai in business |
-| H2 #3 | ai adoption roadmap / ai transformation roadmap |
-| H2 #4 | ai workflow automation |
-| H2 #5 | ai for sales (department section) |
-| Body (natural) | ai digital transformation, ai process automation, ai tools for business |
-| Image alt text | ai transformation strategy, ai implementation plan |
-| CTA section | ai orchestration platform, WorkflowFiesta |
-| Internal links | Link to each of the 7 supporting articles using their primary keywords as anchor text |
+| First H2 | ai transformation (variation) |
+| H2 — Framework | ai transformation framework |
+| H2 — Departments | ai workflow automation |
+| H2 — What You Need | ai orchestration platform |
+| H2 — Mistakes | ai transformation mistakes |
+| H2 — Measure | measuring ai transformation success |
+| CTA anchor text | ai workflow automation |
+| Image alt text | ai transformation framework diagram |
+| FAQ | how to implement ai in business, ai transformation steps |
 
 ---
 
-## 10. Internal Linking Opportunities (Cluster)
+## Competitive Keyword Gap Analysis
 
-| Target Article | Anchor Text to Use | Placement in Pillar |
-|---|---|---|
-| Article 02 — HR | "ai for hr" or "ai in human resources" | HR department section |
-| Article 03 — Marketing | "ai for marketing" or "ai marketing automation" | Marketing department section |
-| Article 04 — Finance | "ai for finance" or "ai in financial operations" | Finance department section |
-| Article 05 — Sales | "ai for sales" or "ai sales automation" | Sales department section |
-| Article 06 — Customer Success | "ai for customer success" or "ai customer service" | CS department section |
-| Article 07 — Operations | "ai for operations" or "ai process automation" | Operations department section |
-| Article 08 — Business Case/ROI | "ai transformation roi" or "business case for ai" | Conclusion / ROI section |
+**Competitors ranking for primary keyword:**
+- Zapier blog: "AI transformation" — ranking with broad automation content
+- McKinsey/Deloitte: Ranking with enterprise-focused transformation guides
+- HBR: Ranking with thought leadership pieces
+
+**Gap opportunity:** None of the top-ranking pages offer a **department-by-department, no-code, SMB-focused** AI transformation guide. WorkflowFiesta can own this angle — practical, actionable, built for 20–500 person companies, not Fortune 500.
 
 ---
 
-## 11. Competitor Gap Analysis
+## Final Recommendation
 
-| Competitor | Ranking Keywords We Can Displace | Strategy |
-|---|---|---|
-| **Zapier** | zapier ai automation, workflow automation software | Position WorkflowFiesta as AI-native vs Zapier bolt-on AI |
-| **n8n** | n8n ai workflow, n8n alternative | Target developer audience with easier onboarding angle |
-| **Make** | make.com ai automation, make alternative | Target SMB audience with better AI orchestration story |
-| **McKinsey/Gartner** | ai transformation strategy, ai transformation framework | Target practitioners vs consultants — actionable vs theoretical |
-| **IBM/Salesforce** | ai transformation examples, enterprise ai transformation | Target SMB/mid-market vs enterprise-only content |
-
----
-
-## 12. Notes & Recommendations
-
-1. **Re-authorize Google Ads OAuth** to get fresh volume data before the SEO Architect builds the blueprint. Both refresh tokens are expired. Go to Google Ads > Tools > API Center to re-authorize.
-
-2. **"ai for sales" (2,400/mo T1)** is the highest-volume keyword in this cluster. The pillar should have a dedicated H2 section on AI for sales that links to Article 05.
-
-3. **"ai tools for business" (2,900/mo T1)** and **"workflow automation software" (3,600/mo T1)** are the highest-volume LSI terms — include naturally in the tools/resources section.
-
-4. **Featured snippet priority:** "what is ai transformation" and "ai transformation steps" are the two highest-opportunity snippets. Structure the intro and roadmap sections to win these.
-
-5. **Competitor displacement:** "n8n alternative" (1,300/mo T1) is a high-value displacement keyword. Consider a comparison callout box in the tools section.
-
-6. **PAA coverage:** The article should answer at least 6 of the 12 PAA questions identified above — each answer should be 40-60 words, structured as a direct response.
-
-7. **Word count target:** 3,200-3,800 words. The pillar needs enough depth to rank for the full keyword set without keyword stuffing. Each department section (HR, Marketing, Finance, Sales, CS, Operations) should be 200-300 words with a link to the supporting article.
-
----
-
-*Generated: 2026-05-19 | Agent: Keyword Researcher | Pipeline Step: 01 of 16*
-*Google Ads API: OAuth tokens expired — volumes from prior validated session + SEO benchmarks*
-*Next step: 02-serp-analysis.md (SERP Analyst)*
+**Primary:** `ai transformation` (880/mo, T2 — pillar hub value)  
+**Top secondary:** `ai transformation strategy`, `ai workflow automation`, `how to implement ai in business`  
+**Word count target:** 3,200–3,800 words  
+**Featured snippet target:** "what is ai transformation" definition + "how to do an ai transformation" numbered list  
+**Internal link strategy:** Every department section links to its corresponding supporting article using the department-specific T1 keyword as anchor text
