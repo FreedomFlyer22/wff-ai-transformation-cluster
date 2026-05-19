@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Transformation Guide — WorkflowFiesta Blog Cover</title>
+<style>
+  @import url('https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,400&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    width: 1200px;
+    height: 628px;
+    overflow: hidden;
+    font-family: 'Satoshi', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #000000;
+  }
+
+  .cover {
+    width: 1200px;
+    height: 628px;
+    position: relative;
+    background: linear-gradient(135deg, #000000 0%, #0d0500 30%, #1a0a00 55%, #2d1200 75%, #F3610C 130%);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+
+  /* Grid lines — subtle depth */
+  .grid {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(243,97,12,0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(243,97,12,0.06) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+
+  /* Glow orb */
+  .glow {
+    position: absolute;
+    right: -80px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 520px;
+    height: 520px;
+    background: radial-gradient(circle, rgba(243,97,12,0.35) 0%, rgba(243,97,12,0.12) 40%, transparent 70%);
+    border-radius: 50%;
+  }
+
+  /* Department nodes — visual system diagram */
+  .nodes {
+    position: absolute;
+    right: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 380px;
+    height: 380px;
+  }
+
+  .node {
+    position: absolute;
+    background: rgba(243,97,12,0.12);
+    border: 1px solid rgba(243,97,12,0.4);
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(255,255,255,0.85);
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+    backdrop-filter: blur(4px);
+  }
+
+  .node.center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(243,97,12,0.25);
+    border-color: rgba(243,97,12,0.8);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 12px 18px;
+    box-shadow: 0 0 24px rgba(243,97,12,0.3);
+  }
+
+  .node.hr    { top: 8%;  left: 50%; transform: translateX(-50%); }
+  .node.mktg  { top: 22%; left: 2%; }
+  .node.fin   { top: 22%; right: 2%; }
+  .node.sales { bottom: 22%; left: 2%; }
+  .node.cs    { bottom: 22%; right: 2%; }
+  .node.ops   { bottom: 8%; left: 50%; transform: translateX(-50%); }
+
+  /* Connector lines */
+  .connectors {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+  }
+
+  /* Left content */
+  .content {
+    position: relative;
+    z-index: 10;
+    padding: 64px 0 64px 72px;
+    max-width: 620px;
+  }
+
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(243,97,12,0.15);
+    border: 1px solid rgba(243,97,12,0.4);
+    border-radius: 100px;
+    padding: 6px 16px;
+    margin-bottom: 28px;
+  }
+
+  .eyebrow-dot {
+    width: 7px;
+    height: 7px;
+    background: #F3610C;
+    border-radius: 50%;
+    animation: pulse 2s ease-in-out infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.6; transform: scale(0.85); }
+  }
+
+  .eyebrow-text {
+    font-size: 12px;
+    font-weight: 700;
+    color: #F3610C;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .headline {
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+
+  .headline .accent {
+    color: #F3610C;
+  }
+
+  .subheadline {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(255,255,255,0.6);
+    line-height: 1.5;
+    margin-bottom: 36px;
+    max-width: 480px;
+  }
+
+  .departments {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 36px;
+  }
+
+  .dept-tag {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 8px;
+    padding: 5px 12px;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(255,255,255,0.65);
+    letter-spacing: 0.02em;
+  }
+
+  .cta-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .cta-btn {
+    background: #F3610C;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 12px 28px;
+    border-radius: 12px;
+    letter-spacing: 0.02em;
+    box-shadow: 0 4px 20px rgba(243,97,12,0.4);
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .logo-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .logo-mark {
+    width: 32px;
+    height: 32px;
+    background: #F3610C;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo-mark svg {
+    width: 18px;
+    height: 18px;
+    fill: #ffffff;
+  }
+
+  .logo-name {
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(255,255,255,0.7);
+    letter-spacing: 0.01em;
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="grid"></div>
+  <div class="glow"></div>
+
+  <!-- Department nodes diagram -->
+  <div class="nodes">
+    <svg class="connectors" viewBox="0 0 380 380" xmlns="http://www.w3.org/2000/svg">
+      <line x1="190" y1="50" x2="190" y2="170" stroke="rgba(243,97,12,0.25)" stroke-width="1" stroke-dasharray="4,4"/>
+      <line x1="60" y1="100" x2="155" y2="175" stroke="rgba(243,97,12,0.25)" stroke-width="1" stroke-dasharray="4,4"/>
+      <line x1="320" y1="100" x2="225" y2="175" stroke="rgba(243,97,12,0.25)" stroke-width="1" stroke-dasharray="4,4"/>
+      <line x1="60" y1="280" x2="155" y2="205" stroke="rgba(243,97,12,0.25)" stroke-width="1" stroke-dasharray="4,4"/>
+      <line x1="320" y1="280" x2="225" y2="205" stroke="rgba(243,97,12,0.25)" stroke-width="1" stroke-dasharray="4,4"/>
+      <line x1="190" y1="330" x2="190" y2="210" stroke="rgba(243,97,12,0.25)" stroke-width="1" stroke-dasharray="4,4"/>
+    </svg>
+    <div class="node hr">HR</div>
+    <div class="node mktg">Marketing</div>
+    <div class="node fin">Finance</div>
+    <div class="node center">WorkflowFiesta</div>
+    <div class="node sales">Sales</div>
+    <div class="node cs">Customer Success</div>
+    <div class="node ops">Operations</div>
+  </div>
+
+  <!-- Main content -->
+  <div class="content">
+    <div class="eyebrow">
+      <div class="eyebrow-dot"></div>
+      <span class="eyebrow-text">AI Transformation Guide 2026</span>
+    </div>
+
+    <h1 class="headline">
+      AI Transformation,<br>
+      <span class="accent">Department</span><br>
+      by Department
+    </h1>
+
+    <p class="subheadline">
+      The practical roadmap for implementing AI across your entire business — without consultants, without ripping out existing systems.
+    </p>
+
+    <div class="departments">
+      <span class="dept-tag">HR</span>
+      <span class="dept-tag">Marketing</span>
+      <span class="dept-tag">Finance</span>
+      <span class="dept-tag">Sales</span>
+      <span class="dept-tag">Customer Success</span>
+      <span class="dept-tag">Operations</span>
+    </div>
+
+    <div class="cta-row">
+      <div class="logo-area">
+        <div class="logo-mark">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+          </svg>
+        </div>
+        <span class="logo-name">WorkflowFiesta</span>
+      </div>
+      <span class="cta-btn">workflowfiesta.com/blog</span>
+    </div>
+  </div>
+</div>
+</body>
+</html>
