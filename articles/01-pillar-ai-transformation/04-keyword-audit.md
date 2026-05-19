@@ -1,163 +1,132 @@
-# Keyword Audit & Approved Brief — Article 01: AI Transformation Pillar
-**Product:** WorkflowFiesta  
-**Article:** How to Do an AI Transformation (Your Business, Department by Department)  
-**Pipeline Step:** 04 of 16  
-**Date:** 2026-05-19  
+# 04 — Keyword Audit
+## Article: How to Do an AI Transformation (Your Business, Department by Department)
+## Product: WorkflowFiesta | Cluster: AI Transformation Series | Article 1 of 8 (PILLAR)
+## Pipeline Step: 04 of 16 | Date: 2026-05-19
 
 ---
 
-## AUDIT VERDICT: APPROVED WITH MODIFICATIONS
+## Audit Verdict: ✅ APPROVED — with 3 substitutions
 
-| Metric | Count |
-|---|---|
-| Keywords submitted | 30 |
-| Keywords approved (unchanged) | 19 |
-| Keywords demoted (cannibalization) | 7 |
-| Keywords removed | 4 |
-| Keywords added | 5 |
-| **Final approved keyword count** | **24** |
+All 25 keywords reviewed for cannibalization, intent alignment, and search relevance. 22 approved as-is. 3 substituted. 0 removed without replacement.
 
 ---
 
-## Section 1: Cannibalization Flags — 7 Keywords DEMOTED
+## Flags & Substitutions
 
-These are the primary ranking targets of supporting articles. The pillar uses them ONCE each as internal link anchor text only — never in headings, never repeated.
+### 🔴 FLAG 1 — Cannibalization Risk
+**Keyword:** `ai workflow automation` (1,000/mo)
+**Issue:** This is also the PRIMARY keyword for Article 7 (Operations). Using it as a secondary in the pillar risks cannibalization — both pages compete for the same query.
+**Resolution:** ✅ KEEP in pillar — but as an **internal link anchor only** (linking to Article 7). Do NOT use as a standalone section heading or meta tag in the pillar. The pillar earns this keyword through the cluster link, not by competing directly.
+**Instruction to Copywriter:** Use `ai workflow automation` exactly once in the Operations H3 as the anchor text for the internal link. Do not repeat it elsewhere in the article.
 
-| Keyword | Volume | Cluster Owner | Pillar Rule |
-|---|---|---|---|
-| `ai for hr` | 3,600/mo | Article 02 — HR | Anchor text only → `/blog/ai-hr-transformation` |
-| `ai content marketing` | 3,600/mo | Article 03 — Marketing | Anchor text only → `/blog/ai-marketing-transformation` |
-| `automate financial reporting` | 2,400/mo | Article 04 — Finance | Anchor text only → `/blog/ai-finance-transformation` |
-| `ai for sales` | 2,400/mo | Article 05 — Sales | Anchor text only → `/blog/ai-for-sales` |
-| `ai customer service automation` | 1,600/mo | Article 06 — CS | Anchor text only → `/blog/ai-customer-success-transformation` |
-| `ai workflow automation` | 1,000/mo | Article 07 — Operations | Anchor text only → `/blog/ai-operations-transformation` |
-| `ai productivity tools` | 1,000/mo | Article 08 — ROI | Anchor text only → `/blog/ai-productivity-tools` |
+### 🔴 FLAG 2 — Intent Mismatch
+**Keyword:** `ai adoption roadmap` (480/mo, T3)
+**Issue:** "Roadmap" implies a visual deliverable (infographic, PDF). Users searching this want a downloadable asset, not a blog post. Placing it in an H2 heading creates an intent mismatch.
+**Substitution:** Replace `ai adoption roadmap` in the H2 heading with `ai transformation framework` (600/mo, T2) — same section, better intent match for a written guide.
+**Instruction to Copywriter:** H2 heading should read "Your 4-Phase AI Transformation Framework" not "Your AI Transformation Roadmap." Keep `ai adoption roadmap` as a single LSI mention in the body text only.
 
----
-
-## Section 2: Keywords REMOVED — 4 Keywords
-
-| Keyword | Volume | Reason |
-|---|---|---|
-| `intelligent automation` | 1,100/mo | Enterprise SERP (IBM, Deloitte, Forrester, Gartner) — wrong audience for WFF |
-| `ai change management` | 320/mo | HR/consulting intent mismatch — not platform buyers |
-| `business ai implementation` | 480/mo | Redundant with `how to implement ai in business` (590/mo, better fit) |
-| `ai business automation` | 1,200/mo | Near-duplicate of `ai automation for business` (1,600/mo) — keep higher volume |
+### 🟡 FLAG 3 — Weak Differentiation
+**Keyword:** `ai change management` (700/mo, T2, inferred)
+**Issue:** "Change management" is HR/consulting jargon. The target audience (ops directors, business owners) doesn't search this phrase. Confidence is medium (inferred, not confirmed by Keyword Planner).
+**Substitution:** Replace `ai change management` with `ai transformation challenges` (est. 350/mo) — lower volume but higher intent match for the "Why Most Fail" section. Alternatively, use `how to implement ai in business` (720/mo, T2, confirmed) which is already in the keyword list and fits this section.
+**Resolution:** Remove `ai change management` from the placement map. Use `how to implement ai in business` in the "Why Most Fail" section instead — it's confirmed T2 and fits the section's purpose.
 
 ---
 
-## Section 3: Keywords ADDED — 5 Keywords
+## Approved Keyword Brief — Final List
 
-| Keyword | Volume | Tier | Placement | Rationale |
-|---|---|---|---|---|
-| `ai transformation examples` | 720/mo | T2 | Department section intro + FAQ | Top 5 PAA, no strong snippet owner |
-| `ai transformation benefits` | 590/mo | T2 | "Why Most Fail" section | Appears in PAA and related searches |
-| `how to use ai in business` | 1,300/mo | T1 | H2 #4 Roadmap (variant) | Higher-volume variant of existing keyword |
-| `ai business strategy` | 880/mo | T2 | Roadmap section body | Related searches gap |
-| `workflowfiesta` | Brand | Brand | Platform section + both CTAs (min 3×) | Missing from keyword map entirely |
+### Primary Keyword
+| Keyword | Vol/mo | Tier | Status |
+|---------|--------|------|--------|
+| `ai transformation` | 880 | T2 (pillar hub) | ✅ Approved |
 
----
+### Tier 1 — Target Now
+| # | Keyword | Vol/mo | Intent | Placement | Status |
+|---|---------|--------|--------|-----------|--------|
+| 1 | `ai for hr` | 3,600 | informational | HR H3 + internal link anchor | ✅ Approved |
+| 2 | `ai content marketing` | 3,600 | informational | Marketing H3 + internal link anchor | ✅ Approved |
+| 3 | `workflow automation software` | 3,600 | commercial | Platform comparison section | ✅ Approved |
+| 4 | `ai tools for business` | 2,900 | commercial | Phase 3 H3 body | ✅ Approved |
+| 5 | `ai for sales` | 2,400 | informational | Sales H3 + internal link anchor | ✅ Approved |
+| 6 | `automate financial reporting` | 2,400 | informational | Finance H3 + internal link anchor | ✅ Approved |
+| 7 | `zapier alternative` | 2,400 | commercial | Platform comparison section | ✅ Approved |
+| 8 | `ai process automation` | 1,900 | informational | Ops H3 body + What Is H3 | ✅ Approved |
+| 9 | `ai customer service automation` | 1,600 | commercial | CS H3 + internal link anchor | ✅ Approved |
+| 10 | `ai automation for business` | 1,600 | informational | Marketing H3 body | ✅ Approved |
+| 11 | `ai digital transformation` | 1,300 | informational | What Is H2 body + H3 | ✅ Approved |
+| 12 | `n8n alternative` | 1,300 | commercial | Platform comparison section | ✅ Approved |
+| 13 | `intelligent automation` | 1,100 | informational | CS H3 body | ✅ Approved |
+| 14 | `ai workflow automation` | 1,000 | informational | Ops H3 — anchor text only | ✅ Approved (anchor only) |
+| 15 | `ai productivity tools` | 1,000 | commercial | Ops H3 end + internal link anchor | ✅ Approved |
 
-## Section 4: Approved Keyword Brief
+### Tier 2 — Test Small (natural placement only)
+| # | Keyword | Vol/mo | Intent | Placement | Status |
+|---|---------|--------|--------|-----------|--------|
+| 1 | `ai transformation` | 880 | informational | Primary — see above | ✅ Primary |
+| 2 | `how to implement ai in business` | 720 | informational | Roadmap H2 body + FAQ H3 + Why Most Fail | ✅ Approved (replaces ai change management) |
+| 3 | `ai transformation framework` | 600 | informational | H2 #4 heading (replaces ai adoption roadmap) | ✅ Approved (substituted) |
+| 4 | `ai transformation strategy` | 590 | informational | Intro para 2 + Why Most Fail body | ✅ Approved |
+| 5 | `ai transformation roi` | 590 | informational | FAQ H3 | ✅ Approved |
 
-### PRIMARY KEYWORD
+### Tier 3 — LSI Only (natural mentions, no targeting)
+| # | Keyword | Vol/mo | Placement | Status |
+|---|---------|--------|-----------|--------|
+| 1 | `ai adoption roadmap` | 480 | Body text mention only (not heading) | ✅ Approved (LSI only) |
+| 2 | `ai implementation plan` | 400 | Phase 1 H3 body | ✅ Approved (LSI only) |
+| 3 | `business ai implementation` | 390 | Phase 2 H3 body | ✅ Approved (LSI only) |
+| 4 | `ai orchestration platform` | 320 | Platform comparison H2 + mid CTA | ✅ Approved (LSI only) |
 
-| Keyword | Volume | Density Target | Key Placements |
-|---|---|---|---|
-| `ai transformation` | 880/mo | 0.7–0.9% (~25–30 uses) | H1, meta title, meta description, intro ×2, H2 #1, body throughout, FAQ ×2, end CTA |
-
-### TIER 1 — PILLAR-OWNED RANKING TARGETS (8 keywords)
-
-| Keyword | Volume | Section | Heading? | Body Uses |
-|---|---|---|---|---|
-| `how to use ai in business` | 1,300/mo | H2 #4 Roadmap | H2 variant | 2× |
-| `ai digital transformation` | 1,300/mo | H2 #1 What Is section | H3 heading | 2× |
-| `ai process automation` | 1,900/mo | H3 Operations + H2 #1 H3 | Body only | 2× |
-| `ai automation for business` | 1,600/mo | H3 Marketing | Body only | 1× |
-| `ai tools for business` | 2,900/mo | Phase 3 body | Body only | 1× |
-| `ai transformation strategy` | 590/mo | "Why Most Fail" H2 | Body only | 2× |
-| `ai transformation framework` | 720/mo | H2 #4 Roadmap | Body only | 2× |
-| `how to implement ai in business` | 590/mo | H2 #4 + FAQ | H3 FAQ heading | 2× |
-
-### TIER 2 — SUPPORTING KEYWORDS (9 keywords)
-
-| Keyword | Volume | Section | Uses |
-|---|---|---|---|
-| `ai adoption roadmap` | 480/mo | H2 #4 heading variant | 1× heading, 1× body |
-| `ai orchestration platform` | 590/mo | Platform comparison + CTAs | 1× H2, 2× body, 2× CTAs |
-| `ai implementation plan` | 880/mo | Phase 1 body | 1× |
-| `ai transformation roi` | 590/mo | FAQ H3 | 1× heading, 1× body |
-| `ai transformation cost` | 480/mo | FAQ H3 | 1× heading, 1× body |
-| `ai strategy for small business` | 720/mo | FAQ H3 | 1× heading, 1× body |
-| `ai transformation examples` | 720/mo | Department section intro + FAQ | 2× |
-| `ai transformation benefits` | 590/mo | "Why Most Fail" section | 1× |
-| `ai business strategy` | 880/mo | Roadmap section body | 1× |
-
-### CANNIBALIZATION-CONTROLLED (7 keywords — anchor text only)
-
-| Keyword | Volume | Anchor Target |
-|---|---|---|
-| `ai for hr` | 3,600/mo | `/blog/ai-hr-transformation` |
-| `ai content marketing` | 3,600/mo | `/blog/ai-marketing-transformation` |
-| `automate financial reporting` | 2,400/mo | `/blog/ai-finance-transformation` |
-| `ai for sales` | 2,400/mo | `/blog/ai-for-sales` |
-| `ai customer service automation` | 1,600/mo | `/blog/ai-customer-success-transformation` |
-| `ai workflow automation` | 1,000/mo | `/blog/ai-operations-transformation` |
-| `ai productivity tools` | 1,000/mo | `/blog/ai-productivity-tools` |
-
-### BRAND KEYWORD
-
-| Keyword | Min Uses | Placement |
-|---|---|---|
-| `workflowfiesta` | 3× | Platform comparison (×1), mid CTA (×1), end CTA (×1) |
+### Removed Keywords
+| Keyword | Reason |
+|---------|--------|
+| `ai change management` | Replaced by `how to implement ai in business` — better intent match, confirmed volume |
 
 ---
 
-## Section 5: Meta Tag Final Approved Copy
+## Cannibalization Check — Full Cluster
 
-**Meta Title:** AI Transformation Guide: Department by Department (2026)  
-**Character count:** 56 ✅
+| Keyword | This Article | Other Article | Risk | Resolution |
+|---------|-------------|---------------|------|------------|
+| `ai workflow automation` | Anchor text only | Article 7 (primary) | 🟡 Low | Anchor text only in pillar — no heading, no meta |
+| `ai for hr` | Anchor text only | Article 2 (primary) | 🟢 None | Pillar mentions once, Article 2 owns it |
+| `ai content marketing` | Anchor text only | Article 3 (primary) | 🟢 None | Pillar mentions once, Article 3 owns it |
+| `automate financial reporting` | Anchor text only | Article 4 (primary) | 🟢 None | Pillar mentions once, Article 4 owns it |
+| `ai for sales` | Anchor text only | Article 5 (primary) | 🟢 None | Pillar mentions once, Article 5 owns it |
+| `ai customer service automation` | Anchor text only | Article 6 (primary) | 🟢 None | Pillar mentions once, Article 6 owns it |
+| `ai productivity tools` | Anchor text only | Article 8 (primary) | 🟢 None | Pillar mentions once, Article 8 owns it |
+| `zapier alternative` | Platform comparison | No other article | 🟢 None | Unique to pillar |
+| `n8n alternative` | Platform comparison | No other article | 🟢 None | Unique to pillar |
 
-**Meta Description:** Learn how to run an AI transformation across HR, marketing, finance, sales, and operations. Practical roadmap, real tools, no consultants required.  
-**Character count:** 152 ✅
-
-**URL Slug:** `/blog/ai-business-transformation`
-
----
-
-## Section 6: Featured Snippet Targets
-
-| Priority | Query | Format | Section |
-|---|---|---|---|
-| 🥇 1 | "what is ai transformation" | 40–50 word definition | H2 #1 first paragraph |
-| 🥈 2 | "how to implement ai in business step by step" | Numbered list (4 phases) | H2 #4 Roadmap |
-| 🥉 3 | "ai transformation steps" | Same numbered list | H2 #4 Roadmap |
-| 4 | "how long does ai transformation take" | 40–55 word direct answer | FAQ H3 |
-| 5 | "ai transformation examples" | Bulleted list (6 departments) | Department section intro |
-| 6 | "what is ai orchestration" | 40–50 word definition | Platform comparison section |
+**Cannibalization verdict: ✅ CLEAN** — No keyword conflicts across the cluster. Each department keyword is owned by its supporting article; the pillar uses them as anchor text only.
 
 ---
 
-## Section 7: Keyword Density Rules
+## Final Instructions for Copywriter
 
-| Rule | Requirement |
-|---|---|
-| Primary keyword density | 0.7–0.9% (25–30 uses in ~3,300 words) |
-| No keyword in H2 more than once | Each H2 uses a unique keyword |
-| Cannibalization keywords | Max 1 use each — anchor text only |
-| `ai orchestration platform` | Max 4 uses total |
-| `n8n alternative` | Max 1 use — comparison table only, never in heading |
-| `workflowfiesta` | Min 3 uses, max 6 |
+1. **Primary keyword density:** `ai transformation` — target 28–34 occurrences in 3,400 words (0.8–1.0%)
+2. **H2 #4 heading:** Use "Your 4-Phase AI Transformation Framework" (NOT "roadmap")
+3. **`ai workflow automation`:** Use exactly once — as anchor text for the internal link to Article 7. Do not use in any heading.
+4. **`ai change management`:** Do NOT use. Replaced by `how to implement ai in business` in the Why Most Fail section.
+5. **Department H3s:** Each must contain the department's T1 keyword exactly once as the internal link anchor text.
+6. **Platform comparison:** Must include `zapier alternative`, `n8n alternative`, and `workflow automation software` — all T1.
+7. **FAQ section:** Must include `ai transformation roi` and `how to implement ai in business` as direct answers.
+8. **Existing draft:** The `article.md` in the repo is a strong starting point. Use it as the base for `05-draft.md`. Expand each department H3 to 220 words (current draft is ~120 words per H3). Add the platform comparison section and 2 additional FAQ questions.
 
 ---
 
-## Section 8: Pipeline Handoff Notes for Copywriter
+## Keyword Density Targets
 
-- Use `article.md` as base draft for `05-draft.md`
-- Do NOT rank for the 7 cannibalization-controlled keywords — anchor text only
-- Primary keyword target: 25–30 uses of `ai transformation` across 3,300 words
-- Add `ai transformation examples` as bridge sentence before department section
-- Platform comparison section: use `workflowfiesta` (not "we/our")
-- FAQ: add "What are examples of AI transformation?" as question #1
-- Both CTAs must include `workflowfiesta` by name
-- Expand each department H3 to 220 words (current draft ~120 words per H3)
+| Keyword | Target Count | Target Density |
+|---------|-------------|----------------|
+| `ai transformation` | 28–34 | 0.8–1.0% |
+| `ai workflow automation` | 1 | Anchor text only |
+| `ai tools for business` | 3–4 | 0.09–0.12% |
+| `ai process automation` | 3–4 | 0.09–0.12% |
+| All other T1 keywords | 2–3 each | 0.06–0.09% each |
+| T2 keywords | 1–2 each | Natural only |
+| T3/LSI keywords | 1 each | Natural only |
+
+---
+
+*Generated: 2026-05-19 | Agent: Keyword Auditor | Pipeline Step: 04 of 16*
+*Next step: 05-draft.md (Copywriter)*
