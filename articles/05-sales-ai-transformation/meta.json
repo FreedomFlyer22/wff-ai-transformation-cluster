@@ -1,0 +1,41 @@
+{
+  "title": "How AI Increases Sales Performance (And How to Set It Up)",
+  "slug": "ai-for-sales",
+  "meta_title": "AI for Sales: The 4 Workflows That Increase Revenue in 2026",
+  "meta_description": "How sales teams use AI to automate lead enrichment, outreach sequencing, pipeline management, and forecasting — so reps spend time selling, not on admin.",
+  "primary_keyword": "ai for sales",
+  "secondary_keywords": [
+    "ai lead generation",
+    "ai sales automation",
+    "ai crm automation",
+    "ai sales follow-up",
+    "automate sales pipeline",
+    "sales workflow automation",
+    "ai outreach automation"
+  ],
+  "category": "AI Transformation",
+  "author": "WorkflowFiesta Team",
+  "published_date": "2026-05-19",
+  "word_count": 2800,
+  "reading_time_minutes": 12,
+  "featured_image_alt": "AI for sales workflow automation — lead enrichment, outreach sequencing, and pipeline management",
+  "internal_links": [
+    {"anchor": "complete ai transformation guide", "url": "/blog/ai-business-transformation"},
+    {"anchor": "how AI transforms your operations department", "url": "/blog/ai-operations-transformation"},
+    {"anchor": "how AI productivity tools pay for themselves", "url": "/blog/ai-productivity-tools"},
+    {"anchor": "how AI transforms your HR department", "url": "/blog/ai-hr-transformation"}
+  ],
+  "social": {
+    "linkedin_cmo": "The most common reason deals die is not rejection. It is silence.\n\nA rep sends one email, gets no response, and moves on. The data is clear: 80% of sales require five or more follow-up touches. Most reps stop after two.\n\nNot because they do not want to follow up. Because manually tracking who needs a follow-up and when, across 50 active leads, is a full-time job on top of the actual selling.\n\nWe published a piece this week that maps the four sales workflows where AI delivers the fastest revenue impact — with actual trigger-action sequences, not vague categories.\n\nThe one that surprised me most: the lead enrichment workflow. Teams that implement automated enrichment and routing report a 40-60% reduction in time-to-first-contact and a 15-25% improvement in first-call conversion rates. Not because the AI is better at sales. Because the rep arrives prepared instead of cold.\n\nIf your sales team is spending more time on admin than on conversations, this is worth reading.\n\n→ /blog/ai-for-sales\n\n#AISales #SalesAutomation #WorkflowFiesta",
+    "linkedin_brand": "Sales teams that consistently hit quota are not working harder than the teams that miss.\n\nThey are spending more of their time on the work that actually closes deals.\n\nWorkflowFiesta automates the four sales workflows consuming most of the selling week:\n— Lead enrichment and routing (40-60% faster time-to-first-contact)\n— Outreach sequencing (100% follow-up completion rate vs. 1-2 touches manually)\n— Pipeline monitoring (30-40% improvement in CRM data quality)\n— Sales forecasting (model-based, not rep-stated probability)\n\nNo code. No engineers. No custom integrations to maintain.\n\nThe article maps the trigger-action architecture behind each workflow.\n\nRead it: workflowfiesta.com/blog/ai-for-sales\n\nStart Free → app.workflowfiesta.com\n\n#AISales #SalesAutomation #WorkflowFiesta",
+    "twitter_thread": [
+      "80% of sales require 5+ follow-up touches. Most reps stop after 2. Not because they do not want to follow up — because manually tracking 50 active leads is a full-time job. Here are the 4 AI workflows that fix this:",
+      "Workflow 1 — Lead enrichment: lead enters CRM → company data pulled, ICP score calculated, rep briefing document generated, Slack notification sent — all before any human touches the record. 40-60% faster time-to-first-contact. 15-25% better first-call conversion.",
+      "Workflow 2 — Outreach sequencing: lead qualified → Day 1 email → Day 4 follow-up (different angle) → Day 9 LinkedIn connection → Day 14 final close. Sequence runs automatically. Rep handles the replies. 100% follow-up completion rate vs. 1-2 touches manually.",
+      "Workflow 3 — Pipeline monitoring: deal quiet for 14 days → Slack alert with re-engagement draft. Call completed → AI generates summary, updates CRM, creates follow-up tasks. Weekly pipeline report generated automatically every Monday.",
+      "Workflow 4 — Sales forecasting: every Friday, all open deals pulled, historical conversion rates applied by stage and rep, weighted forecast calculated, gap to target quantified, deals most likely to close surfaced. Model-based, not rep-stated probability.",
+      "What AI cannot replace in sales: the discovery call, the relationship, the negotiation. AI handles the 60-70% that follows rules. The rep handles the 30-40% that requires judgment.",
+      "Full trigger-action architecture for all 4 workflows: workflowfiesta.com/blog/ai-for-sales\n\nStart Free → app.workflowfiesta.com"
+    ]
+  }
+}
