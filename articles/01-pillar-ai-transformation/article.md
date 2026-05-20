@@ -1,16 +1,16 @@
 ---
-title: "How to Do an AI Transformation (Your Business, Department by Department)"
-meta_title: "AI Transformation Guide: Department by Department (2026)"
-meta_description: "Learn how to run an AI transformation across your entire business — HR, marketing, finance, sales, customer success, and operations. Practical roadmap included."
-primary_keyword: "ai transformation"
-secondary_keywords: ["ai transformation strategy","ai adoption roadmap","ai orchestration platform","ai workflow automation","ai for sales"]
-volume: 880
-word_count: 3600
-seo_score: 90
-url_slug: "/blog/ai-business-transformation"
-cluster_position: "pillar"
-internal_links_out: 7
-created: "2026-04-23"
+WEBFLOW CMS FIELDS
+---
+Title: How to Do an AI Transformation (Your Business, Department by Department)
+Slug: ai-business-transformation
+Meta Title: AI Transformation Guide: Department by Department (2026)
+Meta Description: Learn how to run an AI transformation across HR, marketing, finance, sales, and operations. Practical roadmap, real tools, no consultants required.
+Category: AI Transformation
+Author: WorkflowFiesta Team
+Published Date: 2026-05-19
+Featured Image Alt: AI transformation roadmap — department by department guide for business leaders
+---
+ARTICLE BODY
 ---
 
 # How to Do an AI Transformation (Your Business, Department by Department)
@@ -162,4 +162,5 @@ Digital transformation moved businesses from paper and legacy systems to digital
 - Meta title: shorten to "AI Transformation Guide: Department by Department (2026)" (56 chars)
 - Keyword density: verify `ai transformation` reaches 0.80% (target: ~29 occurrences / 3,600 words)
 - All 7 internal links confirmed present above
+
 
